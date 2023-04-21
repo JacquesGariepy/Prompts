@@ -54,6 +54,7 @@ Best regards,
 John
 
 ## ChatGPT 3.5 turbo - json response :
+```
 {
     "subject": "Regarding the project proposal",
     "sender_name": "John Smith",
@@ -64,3 +65,4 @@ John
     "body_text": "Hi Jane,\n\nI hope this email finds you well. I just wanted to follow up regarding the project proposal that we discussed last week. I've made some updates to the proposal and would like to get your feedback before finalizing it.\n\nPlease let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.\n\nBest regards,\nJohn",
     "summary": "John Smith sent an email to Jane Doe regarding the project proposal. He has made some updates to the proposal and is seeking Jane's feedback before finalizing it. John is available for a call later today or tomorrow."
 }
+```
