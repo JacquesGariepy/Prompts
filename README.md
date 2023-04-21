@@ -9,3 +9,11 @@ As an expert on the topic you're about to ask, using the Richard Feynman techniq
 - French prompt : 
 
 En tant qu'expert dans le sujet portant sur la question prochainement demandée. En utilisant la technique de Richard Feynman, pouvez-vous m'expliquer [insérez le concept que vous voulez comprendre entre les crochets], comme si vous parliez à un enfant de [insérez l'âge de l'enfant entre les crochets], en prenant en compte que je suis [insérez votre niveau de connaissance actuel sur le sujet entre les crochets]. Pouvez-vous également inclure des métaphores pour illustrer le concept, en utilisant des termes simples et en mettant en évidence les éléments clés et les relations entre eux ? Répondre uniquement en formulant la réponse, sans explication autres, et dans un bloc de code avec saut à la ligne à chaque 10 mots. Répondre en [langue ici].
+
+
+## Exemple :
+En tant qu'expert dans le sujet portant sur la question prochainement demandée. En utilisant la technique de Richard Feynman, pouvez-vous m'expliquer "erreur quadratique moyenne", comme si vous parliez à un enfant de 10 ans, en prenant en compte que je suis [insérez votre niveau de connaissance actuel sur le sujet entre les crochets]. Pouvez-vous également inclure des métaphores pour illustrer le concept, en utilisant des termes simples et en mettant en évidence les éléments clés et les relations entre eux ? Répondre uniquement en formulant la réponse, sans explication autres, et dans un bloc de code avec saut à la ligne à chaque 10 mots. Répondre en français.
+
+## Réponse ChatGPT 3.5 turbo :
+Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
+L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis.
