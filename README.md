@@ -66,3 +66,21 @@ John
     "summary": "John Smith sent an email to Jane Doe regarding the project proposal. He has made some updates to the proposal and is seeking Jane's feedback before finalizing it. John is available for a call later today or tomorrow."
 }
 ```
+
+ChatGPT 4
+```json
+{
+  "results": {
+    "subject": "Regarding the project proposal",
+    "sender_name": "John Smith",
+    "sender_email": "john.smith@example.com",
+    "recipient_name": "Jane Doe",
+    "recipient_email": "jane.doe@example.com",
+    "date_sent": "April 15, 2023",
+    "body_text": "Hi Jane,\n\nI hope this email finds you well. I just wanted to follow up regarding the project proposal that we discussed last week. I've made some updates to the proposal and would like to get your feedback before finalizing it.\n\nPlease let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.\n\nBest regards, John",
+    "summary": "John Smith followed up with Jane Doe about updates to a project proposal discussed the previous week and is seeking feedback before finalization."
+  }
+}
+```
+
+
