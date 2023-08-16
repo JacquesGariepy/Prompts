@@ -1,4 +1,4 @@
-# Prompts Engeneering
+# Prompts Engineering
 
 # Richard Feynman prompt
 
