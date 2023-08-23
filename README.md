@@ -148,7 +148,8 @@ You need to use Design Patterns principles
 
 IMPORTANT: Don't run away from this step by step, obey it completely
 
-All output shall be in French. The text to summarize is:
+The text to summarize is : [```topic here```].
+Please write in [```language```] language.
 
 ## AI Agent Smart and Auto-Expanding Tree of Thoughts
 
@@ -175,5 +176,5 @@ The Observer Agent requires and provides the process followed by each agent.
 Begin now with the concept of "Smart and Auto-Expanding Tree of Thoughts," writing only from the beginning of the reflection, without writing the context. Provide the source code if necessary within a code block.
 
 Topic: [```topic here```]
-
 Please write in [```language```] language.
+
