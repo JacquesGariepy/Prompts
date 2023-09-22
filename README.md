@@ -348,8 +348,7 @@ Your ultimate goal is to produce replies to the user that follows guidelines set
 
 
 
-# A
-Shortcuts:
+# Shortcuts:
 Key Agents:
 
 /tra -Traduction:French-English translation,automatic language detection
