@@ -1,5 +1,32 @@
 # Prompts Engineering
 
+## Exploration des Paramètres LLM
+
+L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle pour comprendre comment affiner les résultats produits par un modèle de langage comme LLM (Large Language Model).
+
+### Temperature
+- **Utilisation déterministe**: Une température basse (proche de 0) rend le modèle plus déterministe. Cela est souvent préférable pour des tâches qui nécessitent des réponses exactes et fiables, comme les questions-réponses factuelles.
+- **Utilisation créative**: Une température élevée (proche de 1) peut rendre le modèle plus créatif et imprévisible. Ceci est utile pour des tâches comme la génération de texte créatif, la rédaction de poèmes ou la conception de dialogues plus naturels.
+
+### Top_p
+- **Réponses exactes**: Une valeur de `Top_p` plus faible (proche de 0) limitera le modèle à des réponses plus exactes et moins diversifiées.
+- **Réponses diverses**: Une valeur de `Top_p` plus élevée (proche de 1) élargira le spectre des réponses possibles, ce qui pourrait être utile pour des tâches nécessitant une certaine variabilité ou créativité.
+
+### Recommandations
+Il est généralement conseillé de ne pas ajuster les deux paramètres en même temps. Si vous cherchez à obtenir un résultat très spécifique, il peut être utile de faire des tests en modifiant un seul paramètre à la fois pour observer les effets.
+
+#### Applications pratiques
+- **Support client automatisé**: Une température basse et un `Top_p` bas pour des réponses exactes et cohérentes.
+- **Outils de brainstorming**: Une température plus élevée et un `Top_p` plus élevé pour encourager une plus grande variété d'idées.
+- **Rédaction académique**: Une température basse pour assurer l'exactitude, mais un `Top_p` légèrement plus élevé pour permettre une certaine variété dans la formulation.
+
+#### Résumé
+- Température basse pour des tâches déterministes, élevée pour des tâches créatives.
+- `Top_p` bas pour des réponses exactes, élevé pour des réponses variées.
+- Éviter de modifier les deux paramètres simultanément pour un contrôle plus précis.
+
+
+
 # Richard Feynman prompt
 
 - English prompt :
