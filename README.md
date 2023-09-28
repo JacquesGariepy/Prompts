@@ -1,5 +1,4 @@
 # Prompts Engineering 
-https://www.promptingguide.ai/fr/introduction/settings
 
 ## Exploration des Paramètres LLM
 
