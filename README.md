@@ -65,55 +65,52 @@ Il est généralement conseillé de ne pas ajuster les deux paramètres en même
 ### `max_tokens`
 - **Description** : Le nombre maximum de tokens (mots, symboles, etc.) que la réponse du modèle doit contenir.
 - **Type** : Entier.
-- **Exemple** : `50` (La réponse ne doit pas dépasser 50 tokens)
+- **Exemple** :
+> "`50` (La réponse ne doit pas dépasser 50 tokens)"
 
 ### `frequency_penalty`
 - **Description** : Pénalise ou favorise certaines réponses en fonction de leur fréquence.
 - **Type** : Flottant, entre -1 (pénalise les tokens fréquents) et 1 (favorise les tokens fréquents).
-- **Exemple** : `-0.5` (Pénalise légèrement les tokens fréquemment utilisés)
+- **Exemple** :
+> "`-0.5` (Pénalise légèrement les tokens fréquemment utilisés)"
 
 ### `presence_penalty`
 - **Description** : Pénalise ou favorise l'introduction de nouveaux tokens dans la réponse.
 - **Type** : Flottant, entre -1 et 1.
-- **Exemple** : `0.2` (Favorise légèrement l'introduction de nouveaux tokens)
+- **Exemple** :
+> "`0.2` (Favorise légèrement l'introduction de nouveaux tokens)"
 
 ### `stop_sequences`
 - **Description** : Une liste de séquences de texte qui, lorsqu'elles sont générées, signalent la fin de la réponse.
 - **Type** : Liste de chaînes de caractères.
-- **Exemple** : `["FIN", "..."]` (La réponse s'arrête si "FIN" ou "..." est généré)
+- **Exemple** :
+> "`["FIN", "..."]` (La réponse s'arrête si "FIN" ou "..." est généré)"
 
 ### `engine`
 - **Description** : Le moteur spécifique du modèle LLM à utiliser (par exemple, "davinci" pour le moteur le plus performant).
 - **Type** : Chaîne de caractères.
-- **Exemple** : `"davinci"` (Utilise le moteur "davinci")
+- **Exemple** :
+> "`"davinci"` (Utilise le moteur "davinci")"
 
 #### Applications pratiques
 - **Support client automatisé**: Une température basse et un `Top_p` bas pour des réponses exactes et cohérentes.
 - **Outils de brainstorming**: Une température plus élevée et un `Top_p` plus élevé pour encourager une plus grande variété d'idées.
 - **Rédaction académique**: Une température basse pour assurer l'exactitude, mais un `Top_p` légèrement plus élevé pour permettre une certaine variété dans la formulation.
 
-#### Résumé
-- Température basse pour des tâches déterministes, élevée pour des tâches créatives.
-- `Top_p` bas pour des réponses exactes, élevé pour des réponses variées.
-- Éviter de modifier les deux paramètres simultanément pour un contrôle plus précis.
+# Technique prompt
+## Richard Feynman prompt
 
-
-
-# Richard Feynman prompt
-
-- English prompt :
-
-As an expert on the topic you're about to ask, using the Richard Feynman technique, can you explain [```insert concept you want to understand in brackets```], as if you were talking to a [```insert child's age in brackets```], taking into account that I am [```insert your current level of knowledge on the subject in brackets```]? Can you also include metaphors to illustrate the concept, using simple terms and highlighting key elements and relationships between them? Please answer only by formulating the response, without further explanation, and in a code block with line breaks every 10 words. Answer in [```language here```].
+> "As an expert on the topic you're about to ask, using the Richard Feynman technique, can you explain [```insert concept you want to understand in brackets```], as if you were talking to a [```insert child's age in brackets```], taking into account that I am [```insert your current level of knowledge on the subject in brackets```]? Can you also include metaphors to illustrate the concept, using simple terms and highlighting key elements and relationships between them? Please answer only by formulating the response, without further explanation, and in a code block with line breaks every 10 words. Answer in [```language here```]."
 
 ## Réponse ChatGPT 3.5 turbo :
 Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
 L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis.
 
-# JSON response Prompt
+## JSON response Prompt
 
-## Exemple - email extracting
+### Exemple - email extracting
 
-Please extract the following information from the email below:
+> "Please extract the following information from the email below:
 
 Subject (key: subject)
 Sender's name (key: sender_name)
@@ -126,14 +123,14 @@ A short summary of the email (key: summary)
 
 Make sure fields 1 to 6 are answered very short, e.g. for the sender's name just say the name.
 Please answer in JSON machine-readable format, using the keys from above.
-Format the ouput as JSON object called "results". Pretty print the JSON and make sure that is properly closed at the end.
+Format the ouput as JSON object called "results". Pretty print the JSON and make sure that is properly closed at the end."
 
-## Email sample
+### Email sample
 
-From: John Smith john.smith@example.com
+> "From: John Smith john.smith@example.com
 To: Jane Doe jane.doe@example.com
 Subject: Regarding the project proposal
-Date: April 15, 2023
+Date: April 15, 2023"
 
 Hi Jane,
 
@@ -142,9 +139,9 @@ I hope this email finds you well. I just wanted to follow up regarding the proje
 Please let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.
 
 Best regards,
-John
+John"
 
-## ChatGPT 3.5 turbo - json response :
+> "ChatGPT 3.5 turbo - json response :
 ```
 {
     "subject": "Regarding the project proposal",
@@ -156,9 +153,9 @@ John
     "body_text": "Hi Jane,\n\nI hope this email finds you well. I just wanted to follow up regarding the project proposal that we discussed last week. I've made some updates to the proposal and would like to get your feedback before finalizing it.\n\nPlease let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.\n\nBest regards,\nJohn",
     "summary": "John Smith sent an email to Jane Doe regarding the project proposal. He has made some updates to the proposal and is seeking Jane's feedback before finalizing it. John is available for a call later today or tomorrow."
 }
-```
+```"
 
-ChatGPT 4
+> "ChatGPT 4
 ```json
 {
   "results": {
@@ -173,6 +170,7 @@ ChatGPT 4
   }
 }
 ```
+"
 ## Spellcheck/Grammar check.
 Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say "No errors found". Don't use any punctuation around the text : 
 
