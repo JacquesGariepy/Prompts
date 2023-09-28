@@ -102,9 +102,9 @@ Il est généralement conseillé de ne pas ajuster les deux paramètres en même
 
 > "As an expert on the topic you're about to ask, using the Richard Feynman technique, can you explain [```insert concept you want to understand in brackets```], as if you were talking to a [```insert child's age in brackets```], taking into account that I am [```insert your current level of knowledge on the subject in brackets```]? Can you also include metaphors to illustrate the concept, using simple terms and highlighting key elements and relationships between them? Please answer only by formulating the response, without further explanation, and in a code block with line breaks every 10 words. Answer in [```language here```]."
 
-## Réponse ChatGPT 3.5 turbo :
-Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
-L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis.
+Réponse ChatGPT 3.5 turbo :
+> "Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
+L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis."
 
 ## JSON response Prompt
 
