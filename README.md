@@ -60,7 +60,7 @@ Il est généralement conseillé de ne pas ajuster les deux paramètres en même
 - **Description** : Le texte que vous souhaitez soumettre au modèle pour obtenir une réponse.
 - **Type** : Chaîne de caractères.
 - **Exemple** :
-> `"Traduisez le mot 'Bonjour' en anglais."`
+> "`"Traduisez le mot 'Bonjour' en anglais."`"
 
 ### `max_tokens`
 - **Description** : Le nombre maximum de tokens (mots, symboles, etc.) que la réponse du modèle doit contenir.
