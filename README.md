@@ -1,4 +1,37 @@
-# Prompts Engineering 
+# Prompts Engineering
+
+## Définition de Prompt Engineering
+Le **Prompt Engineering** se réfère à la création, l'optimisation, et la mise en œuvre de prompts (invitations/consignes) pour guider des modèles linguistiques ou d'autres systèmes automatisés dans la production de réponses ou de contenus spécifiques.
+
+### Perspective Littéraire sur le Prompt Engineering
+
+- **Narration**: Comment un prompt peut créer une histoire ou une trame narrative.
+- **Stylistique**: L'influence du style du prompt sur la réponse du modèle.
+- **Métaphore**: Utilisation de métaphores pour guider la réponse du modèle.
+
+### Perspective en Génie Logiciel sur le Prompt Engineering
+
+- **Optimisation**: Techniques pour améliorer l'efficacité des prompts.
+- **Interface Utilisateur**: Comment présenter les prompts pour une meilleure UX.
+- **Tests**: Assurer la fiabilité et la cohérence des réponses via des prompts bien conçus.
+
+### Exemple
+
+Exemple d'un prompt optimisé avec une perspective littéraire:
+
+Prompt Initial: 
+> "Décrivez un coucher de soleil."
+
+Prompt Optimisé: 
+> "Racontez une histoire où un coucher de soleil joue un rôle crucial."
+
+La version optimisée engage davantage le modèle en intégrant une dimension narrative.
+
+### Alternatives pour Intégrer les Perspectives
+
+1. **Workshops combinant écrivains et ingénieurs** pour concevoir des prompts.
+2. **Utilisation d'outils de génie logiciel** pour analyser l'efficacité des prompts littéraires.
+3. **Création d'une plateforme collaborative** où les utilisateurs peuvent proposer et tester différents prompts.
 
 ## Exploration des Paramètres LLM
 
