@@ -131,7 +131,7 @@ A short summary of the email (key: summary)
 
 Make sure fields 1 to 6 are answered very short, e.g. for the sender's name just say the name.
 Please answer in JSON machine-readable format, using the keys from above.
-Format the ouput as JSON object called "results". Pretty print the JSON and make sure that is properly closed at the end."
+Format the ouput as JSON object called "results". Pretty print the JSON and make sure that is properly closed at the end.
 ```
 
 Email sample :
