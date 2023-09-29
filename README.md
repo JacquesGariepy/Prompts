@@ -349,10 +349,15 @@ Au lieu de solliciter le modèle à froid (comme avec le Zero-Shot Prompting), o
 
 ### **Exemple** :
 > Positif C'est génial !
+
 > C'est mauvais! Négatif
+
 > Wow ce film était rad!
+
 > Positif
+
 > Quel horrible spectacle ! --
+
 > Negatif
 
 ## Explication des tokens de ChatGPT
