@@ -137,7 +137,7 @@ Format the ouput as JSON object called "results". Pretty print the JSON and make
 Email sample :
 >
 ```
-"From: John Smith john.smith@example.com
+From: John Smith john.smith@example.com
 To: Jane Doe jane.doe@example.com
 Subject: Regarding the project proposal
 Date: April 15, 2023"
