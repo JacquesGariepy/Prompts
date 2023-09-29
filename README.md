@@ -35,6 +35,7 @@ La version optimisée engage davantage le modèle en intégrant une dimension na
 
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
+
 L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle pour comprendre comment affiner les résultats produits par un modèle de langage comme LLM (Large Language Model).
 
 ### `temperature`
