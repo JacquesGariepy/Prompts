@@ -36,10 +36,11 @@ La version optimisée engage davantage le modèle en intégrant une dimension na
 ## Création et utilisation des prompts
 
 Un prompt peut être vu comme une question ou une instruction que l'on pose à un modèle de langage pour obtenir une réponse. Le formatage habituel est :
-
+>
+'''
 - `<Question>?` 
 - `<Instruction>`
-
+'''
 Pour une interaction question-réponse (QA) classique, cela peut se présenter comme :
 Q: <Question>?
 A:
