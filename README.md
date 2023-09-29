@@ -72,21 +72,35 @@ En utilisant la méthode *few-shot prompting*, le modèle capitalise sur son apt
 
 ## Structure d'un prompt
 
-Lorsqu'on explore l'univers du "prompt engineering", on constate que chaque prompt peut être constitué de plusieurs éléments distincts. Voici une présentation des composants qui peuvent constituer un prompt :
+Lors de la création de prompts, il est crucial de comprendre les composants qui peuvent le constituer. Voici ces composants accompagnés d'exemples :
 
 ### 1. **Instruction**
-- **Description** : Il s'agit d'une consigne ou d'une demande précise adressée au modèle, indiquant la tâche à effectuer.
-  
+- **Description** : Consigne ou demande adressée au modèle indiquant la tâche à effectuer.
+>
+```
+Traduisez le texte suivant en anglais."
+```
 ### 2. **Contexte**
-- **Description** : Le contexte apporte des détails ou des informations supplémentaires qui peuvent aider le modèle à produire une réponse plus pertinente.
-  
+- **Description** : Informations supplémentaires qui peuvent orienter le modèle vers une réponse spécifique.
+```
+"Imaginez que vous écrivez pour un public d'enfants de 5 à 7 ans."
+```
 ### 3. **Input Data**
-- **Description** : Correspond à la question principale ou à l'information que l'on souhaite soumettre au modèle pour obtenir une réaction ou une réponse.
-  
-### 4. **Output Indicator**
-- **Description** : Spécifie le type de réponse attendu ou le format dans lequel la réponse doit être présentée.
+- **Description** : La question principale ou l'information soumise au modèle.
+- **Exemple** : "Qu'est-ce que la photosynthèse ?"
 
-Il est important de noter que tous ces éléments ne sont pas toujours requis pour formuler un prompt efficace. Leur pertinence et utilisation varient en fonction de la nature précise de la tâche que le modèle est censé accomplir. Nous explorerons ces éléments plus en détail avec des exemples dans les sections suivantes.
+### 4. **Output Indicator**
+- **Description** : Indication sur le type ou le format de la réponse attendue.
+- **Exemple** : "Répondez en moins de trois phrases."
+
+Imaginons maintenant un prompt complet qui utilise ces composants :
+  
+Prompt : "Traduisez le texte suivant en anglais. **Contexte** : Vous écrivez pour un public d'enfants de 5 à 7 ans. **Input Data** : Qu'est-ce que la photosynthèse ? **Output Indicator** : Répondez en moins de trois phrases."
+
+La réponse du modèle pourrait être : "Photosynthesis is how plants make their food. They use sunlight, water, and air. It's like a plant's way of cooking!"
+
+L'importance de chaque composant varie en fonction de la tâche. En comprenant comment chacun fonctionne, on peut créer des prompts plus efficaces.
+
 
 
 ## Exploration des Paramètres LLM
