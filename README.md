@@ -206,6 +206,65 @@ Précisent à quel point quelque chose est vrai. Exemples : "totalement", "parti
     
 **Note** : Le modificateur que vous choisissez peut influencer considérablement la réponse obtenue. Sélectionnez donc avec soin pour obtenir des résultats optimaux. C'est un outil précieux pour affiner la qualité des informations obtenues.
 
+## Explication des tokens de ChatGPT
+
+Lorsqu'on parle de modèles linguistiques comme ChatGPT, le terme "token" est couramment utilisé. Un token est une unité de texte que le modèle lit. Mais qu'est-ce qu'un token exactement, et pourquoi est-il pertinent ?
+
+### 1. **Qu'est-ce qu'un token ?**
+- Un token peut être aussi court qu'un caractère ou aussi long qu'un mot. Par exemple, "ChatGPT" est un token, mais "a" en est aussi un.
+
+### 2. **Pourquoi les tokens sont-ils importants ?**
+- **Coût de l'API** : La facturation de l'utilisation de l'API ChatGPT est souvent basée sur le nombre de tokens traités.
+- **Limitation du modèle** : Il y a une limite au nombre de tokens que le modèle peut gérer en une seule requête. Pour GPT-3, c'est 2048 tokens.
+
+### 3. **Comment sont comptés les tokens ?**
+- La langue peut influencer le compte. Par exemple, un texte en anglais peut nécessiter moins de tokens qu'une traduction équivalente en allemand, en raison de la longueur et de la structure des mots.
+
+### 4. **Entrée vs. Sortie**
+- Les tokens sont comptés à la fois pour le texte d'entrée (votre prompt) et pour le texte de sortie (la réponse du modèle). Si votre prompt utilise 10 tokens et que la réponse en utilise 20, vous serez facturé pour 30 tokens.
+
+### 5. **Gestion des tokens**
+- Il est essentiel de gérer efficacement les tokens pour optimiser les coûts et assurer que vos requêtes ne dépassent pas la limite du modèle.
+
+### Astuce :
+L'API OpenAI fournit souvent des outils ou des fonctions pour compter le nombre de tokens dans un texte sans avoir à faire un appel API complet. Utilisez-les pour estimer et gérer vos besoins en tokens.
+
+**Récapitulatif** : Les tokens sont des unités essentielles de traitement pour ChatGPT. Ils influencent le coût, la capacité de traitement, et la manière dont vous formulez et recevez des réponses du modèle.
+
+## Amorçage de Prompts (Prompt Priming)
+
+L'**amorçage** est une technique consistant à fournir des informations initiales au modèle pour guider sa réponse. Cette méthode aide à obtenir des réponses qui sont plus pertinentes et en phase avec les attentes de l'utilisateur.
+
+### **Pourquoi est-ce utile ?**
+- **Personnalisation** : Adaptation des réponses aux besoins spécifiques de l'utilisateur.
+- **Précision** : Réponses plus ciblées en fonction du contexte fourni.
+- **Reproducibilité** : Possibilité de reproduire un style ou un format spécifique.
+
+### **Exemples** :
+
+1. **Vacances en famille** :
+   - Sans amorçage : "Où devrais-je aller pour mes prochaines vacances ?"
+   - Avec amorçage : "Je souhaite partir en vacances avec ma famille dans un lieu tropical, près de la plage, avec un vol direct depuis LAX et un budget de 5 000 $. Où devrais-je aller ?"
+   - **Réponse** : Cancun, Mexique pourrait être une excellente option. Vous pouvez y trouver des vols directs depuis LAX et des forfaits tout compris pour une semaine autour de 1 000 $ par personne.
+
+2. **Titres de cours en ligne** :
+   - Sans amorçage : "Veuillez créer 3 titres potentiels pour mon nouveau cours en ligne sur l'utilisation de l'IA."
+   - Avec amorçage : "Veuillez créer 3 titres pour mon cours sur l'IA, en suivant le style de ces titres précédents : 'Masterclass de montage vidéo : éditez vos vidéos comme un pro !'"
+   - **Réponses** :
+     - Maîtrise de l'IA : Guide complet de l'intelligence artificielle.
+     - Expert en IA : Apprenez à exploiter la puissance de l'intelligence artificielle.
+     - Bases de l'IA : Guide pas à pas pour utiliser l'intelligence artificielle.
+
+**Point clé** : L'amorçage est un outil puissant pour guider ChatGPT afin d'obtenir des réponses précises et personnalisées.
+
+Est-ce que cette explication vous donne une vision claire de la technique d'amorçage et de son importance dans la formulation de prompts ? Avez-vous d'autres questions à ce sujet ?
+
+
+
+
+https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them
+https://platform.openai.com/tokenizer
+
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
