@@ -81,30 +81,35 @@ Lors de la création de prompts, il est crucial de comprendre les composants qui
 Traduisez le texte suivant en anglais.
 ```
 ### 2. **Contexte**
-- Description : Informations supplémentaires qui peuvent orienter le modèle vers une réponse spécifique.
+- **Description** : Informations supplémentaires qui peuvent orienter le modèle vers une réponse spécifique.
 ```
 Imaginez que vous écrivez pour un public d'enfants de 5 à 7 ans.
 ```
 ### 3. **Input Data**
-- Description : La question principale ou l'information soumise au modèle.
+- **Description** : La question principale ou l'information soumise au modèle.
 ```
 Qu'est-ce que la photosynthèse ?
 ```
 
 ### 4. **Output Indicator**
-- Description : Indication sur le type ou le format de la réponse attendue.
+- **Description** : Indication sur le type ou le format de la réponse attendue.
 ```
 Répondez en moins de trois phrases.
 ```
 
 Imaginons maintenant un prompt complet qui utilise ces composants :
   
-Prompt : "Traduisez le texte suivant en anglais. **Contexte** : Vous écrivez pour un public d'enfants de 5 à 7 ans. **Input Data** : Qu'est-ce que la photosynthèse ? **Output Indicator** : Répondez en moins de trois phrases."
+**Prompt** : 
+```
+Traduisez le texte suivant en anglais. **Contexte** : Vous écrivez pour un public d'enfants de 5 à 7 ans. **Input Data** : Qu'est-ce que la photosynthèse ? **Output Indicator** : Répondez en moins de trois phrases.
+```
 
-La réponse du modèle pourrait être : "Photosynthesis is how plants make their food. They use sunlight, water, and air. It's like a plant's way of cooking!"
+La réponse du modèle pourrait être : 
+```
+Photosynthesis is how plants make their food. They use sunlight, water, and air. It's like a plant's way of cooking!
+```
 
 L'importance de chaque composant varie en fonction de la tâche. En comprenant comment chacun fonctionne, on peut créer des prompts plus efficaces.
-
 
 
 ## Exploration des Paramètres LLM
