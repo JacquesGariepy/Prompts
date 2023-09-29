@@ -37,14 +37,16 @@ La version optimisée engage davantage le modèle en intégrant une dimension na
 
 Un prompt peut être vu comme une question ou une instruction que l'on pose à un modèle de langage pour obtenir une réponse. Le formatage habituel est :
 >
-'''
+```
 - `<Question>?` 
 - `<Instruction>`
-'''
+```
 Pour une interaction question-réponse (QA) classique, cela peut se présenter comme :
+>
+```
 Q: <Question>?
 A:
-
+```
 Cette méthode est nommée **prompting sans exemple** ou *zero-shot prompting*. Ici, le modèle est sollicité pour répondre sans recevoir d'exemple préalable illustrant la nature de la tâche à effectuer. Bien que certains modèles avancés soient capables de gérer ce type de prompting, la pertinence de la réponse peut varier selon la spécificité et la complexité de la question.
 
 Une approche plus structurée est le **prompting avec quelques exemples** ou *few-shot prompting*. On présente au modèle plusieurs exemples de questions et réponses avant de poser la question pour laquelle on attend une réponse. Par exemple :
