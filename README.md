@@ -145,53 +145,66 @@ Adapter la complexité de la réponse en fonction de l'audience :
 
 Les modificateurs sont essentiels pour nuancer et préciser vos prompts. Voici comment ils peuvent influencer les réponses :
 
+
+## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
+
+Les modificateurs jouent un rôle clé dans la nuance et la précision des prompts. Voici une liste des types de modificateurs et comment ils peuvent influencer les réponses :
+
 ### 1. **Qualificatifs** 
+Des mots comme "certains", "quelques", "beaucoup", qui nuancent les noms ou adjectifs qu'ils précèdent.
 - **Exemple** : 
   - Prompt sans qualificatif : "Les oiseaux volent."
   - Prompt avec qualificatif : "Beaucoup d'oiseaux volent."
-
+    
 ### 2. **Adjectifs** 
+Descripteurs de noms et pronoms tels que "rouge", "heureux" ou "grand".
 - **Exemple** : 
   - Prompt sans adjectif : "C'est une voiture."
   - Prompt avec adjectif : "C'est une voiture rapide."
-
+    
 ### 3. **Adverbes** 
+Modifient les verbes, adjectifs ou d'autres adverbes. Exemples : "rapidement", "bien".
 - **Exemple** : 
   - Prompt sans adverbe : "Il mange."
   - Prompt avec adverbe : "Il mange rapidement."
 
 ### 4. **Intensificateurs** 
+Renforcent la signification d'un adjectif ou adverbe. Exemples : "très", "extrêmement".
 - **Exemple** : 
   - Prompt sans intensificateur : "Elle est heureuse."
   - Prompt avec intensificateur : "Elle est très heureuse."
-
+    
 ### 5. **Négations** 
+Nient ou inversent le sens d'une phrase. Exemples : "non", "jamais".
 - **Exemple** : 
   - Prompt affirmatif : "Il lira le livre."
   - Prompt avec négation : "Il ne lira pas le livre."
 
 ### 6. **Mots de nombre** 
+Indiquent la quantité, comme "un", "deux", "plusieurs".
 - **Exemple** : 
   - Prompt vague : "J'ai des livres."
   - Prompt précis : "J'ai trois livres."
 
 ### 7. **Mots temporels** 
+Spécifient le moment, tels que "maintenant", "bientôt".
 - **Exemple** : 
   - Prompt sans indication temporelle : "Je partirai."
   - Prompt avec indication temporelle : "Je partirai demain."
 
 ### 8. **Mots de lieu** 
+Indiquent l'emplacement ou l'origine, comme "ici", "là".
 - **Exemple** : 
   - Prompt sans indication de lieu : "Posez-le."
   - Prompt avec indication de lieu : "Posez-le ici."
 
 ### 9. **Mots de degré** 
+Précisent à quel point quelque chose est vrai. Exemples : "totalement", "partiellement".
 - **Exemple** : 
   - Prompt sans degré : "Il est intéressé par le sujet."
   - Prompt avec degré : "Il est légèrement intéressé par le sujet."
-
-**Note** : Choisir le bon modificateur peut considérablement influencer la réponse du modèle. C'est un outil précieux pour affiner la qualité des informations obtenues.
-
+    
+**Note** : Le modificateur que vous choisissez peut influencer considérablement la réponse obtenue. Sélectionnez donc avec soin pour obtenir des résultats optimaux. C'est un outil précieux pour affiner la qualité des informations obtenues.
 
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
