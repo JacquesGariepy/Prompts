@@ -142,7 +142,7 @@ Best regards,
 John"
 
 Réponse ChatGPT 3.5 turbo - json :
-> "
+> 
 ```
 {
     "subject": "Regarding the project proposal",
@@ -154,11 +154,11 @@ Réponse ChatGPT 3.5 turbo - json :
     "body_text": "Hi Jane,\n\nI hope this email finds you well. I just wanted to follow up regarding the project proposal that we discussed last week. I've made some updates to the proposal and would like to get your feedback before finalizing it.\n\nPlease let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.\n\nBest regards,\nJohn",
     "summary": "John Smith sent an email to Jane Doe regarding the project proposal. He has made some updates to the proposal and is seeking Jane's feedback before finalizing it. John is available for a call later today or tomorrow."
 }
-```"
+```
 
 Réponse ChatGPT 4
-> "
-```json
+> 
+```
 {
   "results": {
     "subject": "Regarding the project proposal",
@@ -172,7 +172,7 @@ Réponse ChatGPT 4
   }
 }
 ```
-"
+
 ## Spellcheck/Grammar check.
 Prompt
 > "Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say "No errors found". Don't use any punctuation around the text"
