@@ -261,9 +261,34 @@ Est-ce que cette explication vous donne une vision claire de la technique d'amor
 
 
 
+## Explication des tokens de ChatGPT
 
-https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them
-https://platform.openai.com/tokenizer
+Lorsqu'on parle de modèles linguistiques comme ChatGPT, le terme "token" est couramment utilisé. Un token est une unité de texte que le modèle lit. Mais qu'est-ce qu'un token exactement, et pourquoi est-il pertinent ?
+
+### 1. **Qu'est-ce qu'un token ?**
+- Un token peut être aussi court qu'un caractère ou aussi long qu'un mot. Par exemple, "ChatGPT" est un token, mais "a" en est aussi un.
+
+### 2. **Pourquoi les tokens sont-ils importants ?**
+- **Coût de l'API** : La facturation de l'utilisation de l'API ChatGPT est souvent basée sur le nombre de tokens traités.
+- **Limitation du modèle** : Il y a une limite au nombre de tokens que le modèle peut gérer en une seule requête. Pour GPT-3, c'est 2048 tokens.
+
+### 3. **Comment sont comptés les tokens ?**
+- La langue peut influencer le compte. Par exemple, un texte en anglais peut nécessiter moins de tokens qu'une traduction équivalente en allemand, en raison de la longueur et de la structure des mots.
+
+### 4. **Entrée vs. Sortie**
+- Les tokens sont comptés à la fois pour le texte d'entrée (votre prompt) et pour le texte de sortie (la réponse du modèle). Si votre prompt utilise 10 tokens et que la réponse en utilise 20, vous serez facturé pour 30 tokens.
+
+### 5. **Gestion des tokens**
+- Il est essentiel de gérer efficacement les tokens pour optimiser les coûts et assurer que vos requêtes ne dépassent pas la limite du modèle.
+
+### Astuce :
+L'API OpenAI fournit souvent des outils ou des fonctions pour compter le nombre de tokens dans un texte sans avoir à faire un appel API complet. Utilisez-les pour estimer et gérer vos besoins en tokens.
+
+**Récapitulatif** : Les tokens sont des unités essentielles de traitement pour ChatGPT. Ils influencent le coût, la capacité de traitement, et la manière dont vous formulez et recevez des réponses du modèle.
+
+
+[Aide Tokenizer OPENAI](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them).
+[Plateforme OPENAI Tokenizer](https://platform.openai.com/tokenizer).
 
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
