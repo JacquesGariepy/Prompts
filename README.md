@@ -259,7 +259,37 @@ L'**amorçage** est une technique consistant à fournir des informations initial
 
 Est-ce que cette explication vous donne une vision claire de la technique d'amorçage et de son importance dans la formulation de prompts ? Avez-vous d'autres questions à ce sujet ?
 
+## Liste de 30 déclencheurs de prompts simples
 
+1. **Acteur : Bibliothécaire**
+   - "Act Bibliothécaire. Suggère-moi quelques livres classiques que tout le monde devrait lire."
+
+2. **Acteur : Barista**
+   - "Act Barista. Explique-moi la différence entre un espresso et un ristretto."
+
+3. **Acteur : Coach sportif**
+   - "Act Coach sportif. Donne-moi un programme d'entraînement pour renforcer mon endurance."
+
+4. **Acteur : Nutritionniste**
+   - "Act Nutritionniste. Quels sont les avantages de manger des légumes verts ?"
+
+5. **Acteur : Historien**
+   - "Parle-moi de la Renaissance en Europe."
+
+6. **Acteur : Astronaute**
+   - "Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?"
+
+7. **Acteur : Jardinier**
+   - "Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?"
+
+8. **Acteur : Professeur de musique**
+   - "Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?"
+
+9. **Acteur : Avocat**
+   - "Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?"
+
+10. **Acteur : Professeur MIT**
+     "Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme."
 
 ## Explication des tokens de ChatGPT
 
@@ -287,8 +317,9 @@ L'API OpenAI fournit souvent des outils ou des fonctions pour compter le nombre 
 **Récapitulatif** : Les tokens sont des unités essentielles de traitement pour ChatGPT. Ils influencent le coût, la capacité de traitement, et la manière dont vous formulez et recevez des réponses du modèle.
 
 
-[Aide Tokenizer OPENAI](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them).
-[Plateforme OPENAI Tokenizer](https://platform.openai.com/tokenizer).
+- [Aide Tokenizer OPENAI](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
+  
+- [Plateforme OPENAI Tokenizer](https://platform.openai.com/tokenizer).
 
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
