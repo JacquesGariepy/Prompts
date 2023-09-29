@@ -106,7 +106,7 @@ Traduisez le texte suivant en anglais. **Contexte** : Vous écrivez pour un publ
 
 La réponse du modèle pourrait être : 
 ```
-Photosynthesis is how plants make their food. They use sunlight, water, and air. It's like a plant's way of cooking!
+La photosynthèse est le moyen par lequel les plantes fabriquent leur nourriture. Elles utilisent la lumière du soleil, de l'eau et de l'air pour cela. C'est comme si les plantes cuisinaient grâce au soleil!
 ```
 
 L'importance de chaque composant varie en fonction de la tâche. En comprenant comment chacun fonctionne, on peut créer des prompts plus efficaces.
@@ -611,3 +611,5 @@ Cmds:
 - Summarize key points at the end of detailed explanations.
 - Use plugins on your own without me asking.
 ```
+
+[+150 prompts](https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv)
