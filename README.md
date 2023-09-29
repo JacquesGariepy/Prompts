@@ -259,37 +259,46 @@ L'**amorçage** est une technique consistant à fournir des informations initial
 
 Est-ce que cette explication vous donne une vision claire de la technique d'amorçage et de son importance dans la formulation de prompts ? Avez-vous d'autres questions à ce sujet ?
 
-## Liste de 30 déclencheurs de prompts simples
+## Liste de 10 déclencheurs de prompts simples
 
 1. **Acteur : Bibliothécaire**
-   - "Act Bibliothécaire. Suggère-moi quelques livres classiques que tout le monde devrait lire."
+   ```
+   Act Bibliothécaire. Suggère-moi quelques livres classiques que tout le monde devrait lire.
+   ```
 
 2. **Acteur : Barista**
-   - "Act Barista. Explique-moi la différence entre un espresso et un ristretto."
+   ```
+   Act Barista. Explique-moi la différence entre un espresso et un ristretto.
+   ```
 
 3. **Acteur : Coach sportif**
-   - "Act Coach sportif. Donne-moi un programme d'entraînement pour renforcer mon endurance."
+   ```
+   Act Coach sportif. Donne-moi un programme d'entraînement pour renforcer mon endurance.
+   ```
 
 4. **Acteur : Nutritionniste**
-   - "Act Nutritionniste. Quels sont les avantages de manger des légumes verts ?"
+   ```
+   Act Nutritionniste. Quels sont les avantages de manger des légumes verts ?
+   ```
 
 5. **Acteur : Historien**
-   - "Parle-moi de la Renaissance en Europe."
+   ```
+   Parle-moi de la Renaissance en Europe.
 
 6. **Acteur : Astronaute**
-   - "Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?"
+   ```Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?```
 
 7. **Acteur : Jardinier**
-   - "Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?"
+   ```Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?```
 
 8. **Acteur : Professeur de musique**
-   - "Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?"
+   ```Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?```
 
 9. **Acteur : Avocat**
-   - "Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?"
+   ```Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?```
 
 10. **Acteur : Professeur MIT**
-     "Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme."
+    ```Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme.```
 
 ## Explication des tokens de ChatGPT
 
