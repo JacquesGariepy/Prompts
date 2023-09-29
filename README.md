@@ -70,6 +70,25 @@ Réponse attendue : `Négatif`
 
 En utilisant la méthode *few-shot prompting*, le modèle capitalise sur son aptitude à apprendre en contexte, c'est-à-dire à comprendre et à s'adapter à une tâche spécifique basée sur quelques exemples fournis.
 
+## Structure d'un prompt
+
+Lorsqu'on explore l'univers du "prompt engineering", on constate que chaque prompt peut être constitué de plusieurs éléments distincts. Voici une présentation des composants qui peuvent constituer un prompt :
+
+### 1. **Instruction**
+- **Description** : Il s'agit d'une consigne ou d'une demande précise adressée au modèle, indiquant la tâche à effectuer.
+  
+### 2. **Contexte**
+- **Description** : Le contexte apporte des détails ou des informations supplémentaires qui peuvent aider le modèle à produire une réponse plus pertinente.
+  
+### 3. **Input Data**
+- **Description** : Correspond à la question principale ou à l'information que l'on souhaite soumettre au modèle pour obtenir une réaction ou une réponse.
+  
+### 4. **Output Indicator**
+- **Description** : Spécifie le type de réponse attendu ou le format dans lequel la réponse doit être présentée.
+
+Il est important de noter que tous ces éléments ne sont pas toujours requis pour formuler un prompt efficace. Leur pertinence et utilisation varient en fonction de la nature précise de la tâche que le modèle est censé accomplir. Nous explorerons ces éléments plus en détail avec des exemples dans les sections suivantes.
+
+
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
