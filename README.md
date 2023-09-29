@@ -328,6 +328,32 @@ Sans fournir d'exemples de traductions, le modèle est capable de traduire le mo
 
 **Récapitulatif** : Le Zero-Shot Prompting est une méthode puissante pour solliciter des modèles de langage, en particulier pour des questions générales ou lorsque des exemples ne sont pas disponibles. Cependant, pour des tâches plus spécifiques, fournir des exemples peut aider à obtenir des réponses plus précises.
 
+## Few-Shot Prompting
+
+Le "Few-Shot Prompting" fait référence à la pratique de fournir au modèle un petit nombre d'exemples (ou "shots") pour l'aider à comprendre et à accomplir une tâche spécifique.
+
+### **Comment cela fonctionne-t-il ?**
+
+Au lieu de solliciter le modèle à froid (comme avec le Zero-Shot Prompting), on lui donne plusieurs exemples de la tâche souhaitée avant de poser la question principale. Ces exemples servent de contexte pour guider le modèle vers la réponse désirée.
+
+### **Pourquoi utiliser le Few-Shot Prompting ?**
+
+1. **Précision** : Les exemples fournissent un contexte qui peut améliorer la précision de la réponse du modèle.
+2. **Adaptabilité** : Utile pour guider le modèle dans des tâches spécifiques ou lorsqu'une certaine forme de réponse est souhaitée.
+3. **Réduction des ambigüités** : Les exemples peuvent clarifier le type de réponse attendue, réduisant ainsi le risque d'interprétations erronées.
+
+### **Limitations**
+
+- **Coût en tokens** : Chaque exemple consomme des tokens, ce qui peut limiter la longueur de la réponse si l'on approche de la limite maximale du modèle.
+- **Nécessité d'exemples pertinents** : Les exemples doivent être soigneusement choisis pour être représentatifs de la tâche souhaitée.
+
+### **Exemple** :
+Positif C'est génial !
+C'est mauvais! Négatif
+Wow ce film était rad!
+Positif
+Quel horrible spectacle ! --
+> Negatif
 
 ## Explication des tokens de ChatGPT
 
