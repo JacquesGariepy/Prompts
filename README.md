@@ -349,14 +349,13 @@ Au lieu de solliciter le modèle à froid (comme avec le Zero-Shot Prompting), o
 
 ### **Exemple** :
  ```
-Positif C'est génial !
-C'est mauvais! Négatif
-Wow ce film était rad!
-Positif
-Quel horrible spectacle ! --
+C'est génial - Positif !
+C'est mauvais! - Négatif
+Wow ce film était vraiment bon - Positif 
+Quel horrible spectacle - ? "
  ```
 Réponse : 
-> Negatif
+> Il semble que vous souhaitiez que je classe la phrase "Quel horrible spectacle" comme positive ou négative. Dans ce cas, la phrase "Quel horrible spectacle" serait généralement classée comme négative, car elle exprime une réaction négative ou une déception envers le spectacle.
 
 ## Explication des tokens de ChatGPT
 
