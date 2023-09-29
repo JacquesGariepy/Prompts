@@ -348,16 +348,14 @@ Au lieu de solliciter le modèle à froid (comme avec le Zero-Shot Prompting), o
 - **Nécessité d'exemples pertinents** : Les exemples doivent être soigneusement choisis pour être représentatifs de la tâche souhaitée.
 
 ### **Exemple** :
-> Positif C'est génial !
-
-> C'est mauvais! Négatif
-
-> Wow ce film était rad!
-
-> Positif
-
-> Quel horrible spectacle ! --
-
+ ```
+Positif C'est génial !
+C'est mauvais! Négatif
+Wow ce film était rad!
+Positif
+Quel horrible spectacle ! --
+ ```
+Réponse : 
 > Negatif
 
 ## Explication des tokens de ChatGPT
