@@ -20,10 +20,10 @@ Le **Prompt Engineering** se réfère à la création, l'optimisation, et la mis
 Exemple d'un prompt optimisé avec une perspective littéraire:
 
 Prompt Initial: 
-> "Décrivez un coucher de soleil."
+> Décrivez un coucher de soleil.
 
 Prompt Optimisé: 
-> "Racontez une histoire où un coucher de soleil joue un rôle crucial."
+> Racontez une histoire où un coucher de soleil joue un rôle crucial.
 
 La version optimisée engage davantage le modèle en intégrant une dimension narrative.
 
@@ -44,7 +44,7 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 - **Utilisation créative**: Une température élevée (proche de 1) peut rendre le modèle plus créatif et imprévisible. Ceci est utile pour des tâches comme la génération de texte créatif, la rédaction de poèmes ou la conception de dialogues plus naturels.
 - **Type** : Flottant.
 - **Exemple** :
-> "`0.7` (Réponse modérément aléatoire)"
+> `0.7` (Réponse modérément aléatoire)
 
 ### `top_p`
 - **Description** : Utilisé pour le filtrage nucleus. Contrôle la diversité des réponses en sélectionnant un sous-ensemble des tokens les plus probables pour la génération.
@@ -52,7 +52,7 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 - **Réponses diverses**: Une valeur de `Top_p` plus élevée (proche de 1) élargira le spectre des réponses possibles, ce qui pourrait être utile pour des tâches nécessitant une certaine variabilité ou créativité.
 - **Type** : Flottant, généralement entre 0 et 1.
 - **Exemple** :
-> "`0.8` (Sélectionne les 80% de tokens les plus probables)"
+> `0.8` (Sélectionne les 80% de tokens les plus probables)
 
 ### Recommandations pour `temperature` et `top_p`
 Il est généralement conseillé de ne pas ajuster les deux paramètres en même temps. Si vous cherchez à obtenir un résultat très spécifique, il peut être utile de faire des tests en modifiant un seul paramètre à la fois pour observer les effets.
@@ -61,37 +61,37 @@ Il est généralement conseillé de ne pas ajuster les deux paramètres en même
 - **Description** : Le texte que vous souhaitez soumettre au modèle pour obtenir une réponse.
 - **Type** : Chaîne de caractères.
 - **Exemple** :
-> "`"Traduisez le mot 'Bonjour' en anglais."`"
+> `"Traduisez le mot 'Bonjour' en anglais."`
 
 ### `max_tokens`
 - **Description** : Le nombre maximum de tokens (mots, symboles, etc.) que la réponse du modèle doit contenir.
 - **Type** : Entier.
 - **Exemple** :
-> "`50` (La réponse ne doit pas dépasser 50 tokens)"
+> `50` (La réponse ne doit pas dépasser 50 tokens)
 
 ### `frequency_penalty`
 - **Description** : Pénalise ou favorise certaines réponses en fonction de leur fréquence.
 - **Type** : Flottant, entre -1 (pénalise les tokens fréquents) et 1 (favorise les tokens fréquents).
 - **Exemple** :
-> "`-0.5` (Pénalise légèrement les tokens fréquemment utilisés)"
+> `-0.5` (Pénalise légèrement les tokens fréquemment utilisés)
 
 ### `presence_penalty`
 - **Description** : Pénalise ou favorise l'introduction de nouveaux tokens dans la réponse.
 - **Type** : Flottant, entre -1 et 1.
 - **Exemple** :
-> "`0.2` (Favorise légèrement l'introduction de nouveaux tokens)"
+> `0.2` (Favorise légèrement l'introduction de nouveaux tokens)
 
 ### `stop_sequences`
 - **Description** : Une liste de séquences de texte qui, lorsqu'elles sont générées, signalent la fin de la réponse.
 - **Type** : Liste de chaînes de caractères.
 - **Exemple** :
-> "`["FIN", "..."]` (La réponse s'arrête si "FIN" ou "..." est généré)"
+> `["FIN", "..."]` (La réponse s'arrête si "FIN" ou "..." est généré)
 
 ### `engine`
 - **Description** : Le moteur spécifique du modèle LLM à utiliser (par exemple, "davinci" pour le moteur le plus performant).
 - **Type** : Chaîne de caractères.
 - **Exemple** :
-> "`"davinci"` (Utilise le moteur "davinci")"
+> `"davinci"` (Utilise le moteur "davinci")
 
 #### Applications pratiques
 - **Support client automatisé**: Une température basse et un `Top_p` bas pour des réponses exactes et cohérentes.
