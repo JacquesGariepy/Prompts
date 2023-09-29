@@ -100,18 +100,25 @@ Il est généralement conseillé de ne pas ajuster les deux paramètres en même
 # Technique prompt
 ## Richard Feynman prompt
 Prompt
-> "As an expert on the topic you're about to ask, using the Richard Feynman technique, can you explain [```insert concept you want to understand in brackets```], as if you were talking to a [```insert child's age in brackets```], taking into account that I am [```insert your current level of knowledge on the subject in brackets```]? Can you also include metaphors to illustrate the concept, using simple terms and highlighting key elements and relationships between them? Please answer only by formulating the response, without further explanation, and in a code block with line breaks every 10 words. Answer in [```language here```]."
+>
+```
+As an expert on the topic you're about to ask, using the Richard Feynman technique, can you explain [```insert concept you want to understand in brackets```], as if you were talking to a [```insert child's age in brackets```], taking into account that I am [```insert your current level of knowledge on the subject in brackets```]? Can you also include metaphors to illustrate the concept, using simple terms and highlighting key elements and relationships between them? Please answer only by formulating the response, without further explanation, and in a code block with line breaks every 10 words. Answer in [```language here```].
+```
 
 Réponse ChatGPT 3.5 turbo :
 >
+```
 "Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
 L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis."
+```
 
 ## JSON response Prompt
 
 ### Email extracting
 Prompt :
-> "Please extract the following information from the email below:
+>
+```
+Please extract the following information from the email below:
 
 Subject (key: subject)
 Sender's name (key: sender_name)
@@ -139,7 +146,8 @@ I hope this email finds you well. I just wanted to follow up regarding the proje
 Please let me know if you have some time to discuss the proposal in more detail. I'm available for a call later today or tomorrow.
 
 Best regards,
-John"
+John
+```
 
 Réponse ChatGPT 3.5 turbo - json :
 > 
@@ -175,11 +183,16 @@ Réponse ChatGPT 4
 
 ## Spellcheck/Grammar check.
 Prompt
-> "Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say "No errors found". Don't use any punctuation around the text"
+>
+```
+Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say "No errors found". Don't use any punctuation around the text
+```
 
 ## Email response and sentiment
 Prompt
-> "You are a customer service AI assistant.
+>
+```
+You are a customer service AI assistant.
 Your task is to send an email reply to a valued customer.
 Given the customer email delimited by ```, \
 Generate a reply to thank the customer for their review.
@@ -192,12 +205,13 @@ Write in a concise and professional tone.
 Sign the email as `AI customer agent`.
 Customer review: ```{review}```
 Review sentiment: {sentiment}
-"""
-"
+```
 
 ## Image to texte (describe image)
 Prompt
-> "User: What is in this image?",
+> 
+```
+User: What is in this image?",
         "https://upload.wikimedia.org/wikipedia/commons/8/86/Id%C3%A9fix.JPG",
         "<end_of_utterance>",
 
@@ -208,7 +222,7 @@ Prompt
         "And who is that?<end_of_utterance>",
 
         "\nAssistant:",
-"
+```
 
 ## Developper - code review
 Prompt
