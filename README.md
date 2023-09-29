@@ -330,6 +330,36 @@ L'API OpenAI fournit souvent des outils ou des fonctions pour compter le nombre 
   
 - [Plateforme OPENAI Tokenizer](https://platform.openai.com/tokenizer).
 
+
+# Techniques
+## Zero-Shot Prompting
+
+Le "Zero-Shot Prompting" est une technique de sollicitation d'un modèle de langage sans lui fournir d'exemples explicites pour une tâche donnée. Le terme "Zero-Shot" fait référence à l'absence d'exemples (ou "shots") fournis au modèle pour apprendre une tâche particulière.
+
+### **Comment cela fonctionne-t-il ?**
+
+Les modèles de langage tels que ChatGPT sont pré-entraînés sur d'énormes ensembles de données textuelles. Cela leur donne une connaissance étendue de divers sujets et la capacité de généraliser à partir des informations qu'ils ont vues pendant l'entraînement. Lorsqu'on sollicite le modèle sans exemples spécifiques, il s'appuie sur cette connaissance préalable pour générer une réponse.
+
+### **Pourquoi utiliser Zero-Shot Prompting ?**
+
+1. **Simplicité** : Pas besoin de fournir d'exemples à chaque fois que vous posez une question.
+2. **Généralité** : Le modèle peut répondre à une vaste gamme de questions sans avoir besoin d'une formation spécifique pour chaque tâche.
+3. **Flexibilité** : Utile pour des tâches où vous n'avez peut-être pas d'exemples à portée de main.
+
+### **Limitations**
+
+- La précision peut varier. Sans exemples concrets pour guider le modèle, il peut parfois mal interpréter la tâche ou donner des réponses moins précises.
+- Pour des tâches plus complexes ou spécifiques, des techniques comme "Few-Shot Prompting" (sollicitation avec quelques exemples) peuvent être préférables.
+
+### **Exemple** :
+Prompt Zero-Shot : "Traduis 'Hello' en français."
+Réponse : "Bonjour."
+
+Sans fournir d'exemples de traductions, le modèle est capable de traduire le mot en se basant sur sa connaissance préalable.
+
+**Récapitulatif** : Le Zero-Shot Prompting est une méthode puissante pour solliciter des modèles de langage, en particulier pour des questions générales ou lorsque des exemples ne sont pas disponibles. Cependant, pour des tâches plus spécifiques, fournir des exemples peut aider à obtenir des réponses plus précises.
+
+
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
