@@ -78,20 +78,24 @@ Lors de la création de prompts, il est crucial de comprendre les composants qui
 - **Description** : Consigne ou demande adressée au modèle indiquant la tâche à effectuer.
 >
 ```
-Traduisez le texte suivant en anglais."
+Traduisez le texte suivant en anglais.
 ```
 ### 2. **Contexte**
-- **Description** : Informations supplémentaires qui peuvent orienter le modèle vers une réponse spécifique.
+- Description : Informations supplémentaires qui peuvent orienter le modèle vers une réponse spécifique.
 ```
-"Imaginez que vous écrivez pour un public d'enfants de 5 à 7 ans."
+Imaginez que vous écrivez pour un public d'enfants de 5 à 7 ans.
 ```
 ### 3. **Input Data**
-- **Description** : La question principale ou l'information soumise au modèle.
-- **Exemple** : "Qu'est-ce que la photosynthèse ?"
+- Description : La question principale ou l'information soumise au modèle.
+```
+Qu'est-ce que la photosynthèse ?
+```
 
 ### 4. **Output Indicator**
-- **Description** : Indication sur le type ou le format de la réponse attendue.
-- **Exemple** : "Répondez en moins de trois phrases."
+- Description : Indication sur le type ou le format de la réponse attendue.
+```
+Répondez en moins de trois phrases.
+```
 
 Imaginons maintenant un prompt complet qui utilise ces composants :
   
