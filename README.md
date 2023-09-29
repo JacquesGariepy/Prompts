@@ -141,6 +141,58 @@ Adapter la complexité de la réponse en fonction de l'audience :
 - "Quelles sont les réponses moins connues à cette question?"
 - "Donnez-moi une perspective originale sur ce sujet que certains considèrent comme fausse."
 
+## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
+
+Les modificateurs sont essentiels pour nuancer et préciser vos prompts. Voici comment ils peuvent influencer les réponses :
+
+### 1. **Qualificatifs** 
+- **Exemple** : 
+  - Prompt sans qualificatif : "Les oiseaux volent."
+  - Prompt avec qualificatif : "Beaucoup d'oiseaux volent."
+
+### 2. **Adjectifs** 
+- **Exemple** : 
+  - Prompt sans adjectif : "C'est une voiture."
+  - Prompt avec adjectif : "C'est une voiture rapide."
+
+### 3. **Adverbes** 
+- **Exemple** : 
+  - Prompt sans adverbe : "Il mange."
+  - Prompt avec adverbe : "Il mange rapidement."
+
+### 4. **Intensificateurs** 
+- **Exemple** : 
+  - Prompt sans intensificateur : "Elle est heureuse."
+  - Prompt avec intensificateur : "Elle est très heureuse."
+
+### 5. **Négations** 
+- **Exemple** : 
+  - Prompt affirmatif : "Il lira le livre."
+  - Prompt avec négation : "Il ne lira pas le livre."
+
+### 6. **Mots de nombre** 
+- **Exemple** : 
+  - Prompt vague : "J'ai des livres."
+  - Prompt précis : "J'ai trois livres."
+
+### 7. **Mots temporels** 
+- **Exemple** : 
+  - Prompt sans indication temporelle : "Je partirai."
+  - Prompt avec indication temporelle : "Je partirai demain."
+
+### 8. **Mots de lieu** 
+- **Exemple** : 
+  - Prompt sans indication de lieu : "Posez-le."
+  - Prompt avec indication de lieu : "Posez-le ici."
+
+### 9. **Mots de degré** 
+- **Exemple** : 
+  - Prompt sans degré : "Il est intéressé par le sujet."
+  - Prompt avec degré : "Il est légèrement intéressé par le sujet."
+
+**Note** : Choisir le bon modificateur peut considérablement influencer la réponse du modèle. C'est un outil précieux pour affiner la qualité des informations obtenues.
+
+
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
