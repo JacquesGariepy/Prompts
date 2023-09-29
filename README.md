@@ -111,6 +111,35 @@ La photosynthèse est le moyen par lequel les plantes fabriquent leur nourriture
 
 L'importance de chaque composant varie en fonction de la tâche. En comprenant comment chacun fonctionne, on peut créer des prompts plus efficaces.
 
+## Création efficace de prompts
+
+### Niveaux d'explication et large vs. spécifique
+Adapter la complexité de la réponse en fonction de l'audience :
+- **Exemple** : Décrivez-moi "le soleil" pour un élève de CP vs. un lycéen vs. un astrophysicien.
+- Choisir ses sources : Livres à lire cette année vs. les 10 livres essentiels pour un musicien en herbe.
+
+### Formule ChatGPT : Livre de prompts pour GITHUB
+1. **Contextualisez votre prompt** : Définissez comment vous souhaitez que GPT interagisse avec vous.
+   - **Exemples** : 
+     - "Vous allez agir en tant que..."
+     - "Expliquez-le comme si vous parliez à un enfant de 5 ans."
+     - "Vous êtes un expert en santé et sport. Posez toujours des questions avant de répondre pour mieux cibler la demande."
+
+2. **Définissez une tâche précise** : Indiquez clairement ce que vous attendez du modèle.
+   - **Exemple** : "Votre mission est de décrire XYZ en XYZ mots."
+
+3. **Soyez spécifique** : Donnez des directives claires sur ce qui doit être inclus ou exclu.
+   - **Exemple** : "N'incluez pas XYZ, supprimez ce symbole/numéro."
+
+4. **Posez des questions** : Interrogez pour obtenir des détails ou clarifier certains points.
+   - **Exemple** : "Pouvez-vous détailler la réponse n°5 de cette liste?"
+
+5. **Réévaluez la réponse** : Si la réponse ne vous convient pas, ajustez et affinez votre prompt.
+
+### Prompts uniques pour des réponses originales :
+- "Sur quel aspect de ce sujet n'aurais-je pas pensé?"
+- "Quelles sont les réponses moins connues à cette question?"
+- "Donnez-moi une perspective originale sur ce sujet que certains considèrent comme fausse."
 
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
