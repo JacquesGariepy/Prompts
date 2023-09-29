@@ -33,6 +33,37 @@ La version optimisée engage davantage le modèle en intégrant une dimension na
 2. **Utilisation d'outils de génie logiciel** pour analyser l'efficacité des prompts littéraires.
 3. **Création d'une plateforme collaborative** où les utilisateurs peuvent proposer et tester différents prompts.
 
+## Création et utilisation des prompts
+
+Un prompt peut être vu comme une question ou une instruction que l'on pose à un modèle de langage pour obtenir une réponse. Le formatage habituel est :
+
+- `<Question>?` 
+- `<Instruction>`
+
+Pour une interaction question-réponse (QA) classique, cela peut se présenter comme :
+Q: <Question>?
+A:
+
+Cette méthode est nommée **prompting sans exemple** ou *zero-shot prompting*. Ici, le modèle est sollicité pour répondre sans recevoir d'exemple préalable illustrant la nature de la tâche à effectuer. Bien que certains modèles avancés soient capables de gérer ce type de prompting, la pertinence de la réponse peut varier selon la spécificité et la complexité de la question.
+
+Une approche plus structurée est le **prompting avec quelques exemples** ou *few-shot prompting*. On présente au modèle plusieurs exemples de questions et réponses avant de poser la question pour laquelle on attend une réponse. Par exemple :
+Q: <Question1>?
+A: <Réponse1>
+Q: <Question2>?
+A: <Réponse2>
+Q: <Question3>?
+A:
+
+Il est essentiel de noter que le format QA n'est pas strict. Le choix du format dépend de la nature de la tâche. Par exemple, pour classer des commentaires :
+
+C'est un bon film! // Positif
+C'était ennuyeux. //
+
+Réponse attendue : `Négatif`
+
+En utilisant la méthode *few-shot prompting*, le modèle capitalise sur son aptitude à apprendre en contexte, c'est-à-dire à comprendre et à s'adapter à une tâche spécifique basée sur quelques exemples fournis.
+
+
 ## Exploration des Paramètres LLM
 [GPT OPENAI API](https://platform.openai.com/docs/guides/gpt/chat-completions-api).
 
