@@ -435,39 +435,52 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 | Écriture de code expérimental| 0.9         | 0.9   | Encourage l'exploration de nouvelles techniques et paradigmes de codage. La sortie est hautement exploratoire, favorisant la créativité et la pensée hors des sentiers battus. |
 | Génération de design artistique | 1.0         | 1.0   | Facilite la génération de designs uniques et artistiques. La sortie est sans restriction, maximisant la créativité et l'originalité. |
 
+### Prompt permettant le controle de la température et du top_p :
+>
+```
+Veuillez configurer les paramètres pour la génération du code source :
+- Temperature (0.0 à 1.0) : ______
+- Top_p (0.0 à 1.0) : ______
 
+Temperature contrôle le degré de variabilité dans le code généré. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
 
-### `prompt`
+Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
+
+Quel est le problème ou la tâche que vous souhaitez résoudre ? 
+(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) :
+```
+
+### Paramètre `prompt`
 - **Description** : Le texte que vous souhaitez soumettre au modèle pour obtenir une réponse.
 - **Type** : Chaîne de caractères.
 - **Exemple** :
 > `"Traduisez le mot 'Bonjour' en anglais."`
 
-### `max_tokens`
+### Paramètre `max_tokens`
 - **Description** : Le nombre maximum de tokens (mots, symboles, etc.) que la réponse du modèle doit contenir.
 - **Type** : Entier.
 - **Exemple** :
 > `50` (La réponse ne doit pas dépasser 50 tokens)
 
-### `frequency_penalty`
+### Paramètre `frequency_penalty`
 - **Description** : Pénalise ou favorise certaines réponses en fonction de leur fréquence.
 - **Type** : Flottant, entre -1 (pénalise les tokens fréquents) et 1 (favorise les tokens fréquents).
 - **Exemple** :
 > `-0.5` (Pénalise légèrement les tokens fréquemment utilisés)
 
-### `presence_penalty`
+### Paramètre `presence_penalty`
 - **Description** : Pénalise ou favorise l'introduction de nouveaux tokens dans la réponse.
 - **Type** : Flottant, entre -1 et 1.
 - **Exemple** :
 > `0.2` (Favorise légèrement l'introduction de nouveaux tokens)
 
-### `stop_sequences`
+### Paramètre `stop_sequences`
 - **Description** : Une liste de séquences de texte qui, lorsqu'elles sont générées, signalent la fin de la réponse.
 - **Type** : Liste de chaînes de caractères.
 - **Exemple** :
 > `["FIN", "..."]` (La réponse s'arrête si "FIN" ou "..." est généré)
 
-### `engine`
+### Paramètre `engine`
 - **Description** : Le moteur spécifique du modèle LLM à utiliser (par exemple, "davinci" pour le moteur le plus performant).
 - **Type** : Chaîne de caractères.
 - **Exemple** :
