@@ -447,7 +447,7 @@ Temperature contrôle le degré de variabilité dans le code généré. Une temp
 Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
 
 Quel est le problème ou la tâche que vous souhaitez résoudre ? 
-(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) : création d'une liste en python permettant de trier selon un ordre à définir.
+(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) :__________________________________________.
 
 Fournir la réponse uniquement.
 ```
