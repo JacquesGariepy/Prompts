@@ -438,7 +438,7 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 ### Prompt permettant le controle de la température et du top_p :
 >
 ```
-euillez configurer les paramètres pour la génération du code source :
+Veuillez configurer les paramètres pour la génération du code source :
 - Temperature (0.0 à 1.0) : ___
 - Top_p (0.0 à 1.0) : ___
 
