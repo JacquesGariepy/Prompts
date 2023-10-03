@@ -932,3 +932,39 @@ Cmds:
 ```
 
 [+150 prompts](https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv)
+
+
+# Images processing
+
+## Exemple complex prompt sample
+```
+Title: "Elegant Fox Figure Recreation"
+
+Objective: Recreate a photograph of an elegant fox figure, dressed in a sophisticated outfit, posed in a dynamic setting.
+
+Steps:
+
+Setting Up the Environment:
+
+Find an indoor setting with soft natural lighting. Use an open space, preferably near a window.
+Prepare a wooden surface or table for the fox figure to stand on. Ensure it's clean and clutter-free.
+Choosing the Fox Figure:
+
+Acquire a fox figure that is finely detailed and dressed in formal attire. The attire should ideally be an orange-brown suit with white shirt, tie, and vest.
+Position the fox figure in the center of the wooden surface or table.
+Background Elements:
+
+The background should be blurred but hint at a sophisticated environment, such as a classy cafe or a plush living room.
+Place some soft-focus background elements like plants, furniture, or softly lit lamps to add depth.
+Photographing:
+
+Use a camera with good depth of field capabilities.
+Position the camera at the fox figure's eye level, ensuring the figure fills most of the frame.
+Focus sharply on the fox figure's face, especially its eyes, while ensuring the background remains blurred.
+Post-Processing:
+
+Enhance the image's brightness and contrast if necessary.
+Adjust the color balance to make the fox figure's orange-brown suit pop.
+Crop the image if needed to center the fox figure and eliminate any distracting elements.
+Remember, the goal is to capture the elegance and sophistication of the fox figure while making sure it stands out against a subtly detailed backdrop.
+```
