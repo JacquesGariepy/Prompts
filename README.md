@@ -439,15 +439,15 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 >
 ```
 Veuillez configurer les paramètres pour la génération de la réponse :
-- Temperature (0.0 à 1.0) : ___
-- Top_p (0.0 à 1.0) : ___
+- Temperature (0.0 à 1.0) : [insère la valeur ici, ex.: 0.9]
+- Top_p (0.0 à 1.0) : [insère la valeur ici, ex.: 1.0]
 
 Temperature contrôle le degré de variabilité dans la réponse générée. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
 
 Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
 
 Quel est le problème ou la tâche que vous souhaitez résoudre ? 
-(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) :__________________________________________.
+(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) : [ insère le ton sujet ici entre parenthèse, n'hésite pas à inclure des détails, ex.: "Écrire une fonction en Python qui prend en entrée une liste de nombres et renvoie la somme de tous les nombres impairs présents dans la liste."].
 
 Fournir la réponse uniquement.
 ```
