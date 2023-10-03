@@ -447,10 +447,26 @@ Temperature contrôle le degré de variabilité dans la réponse générée. Une
 Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
 
 Quel est le problème ou la tâche que vous souhaitez résoudre ? 
-(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) : [ insère le ton sujet ici entre parenthèse, n'hésite pas à inclure des détails, ex.: "Écrire une fonction en Python qui prend en entrée une liste de nombres et renvoie la somme de tous les nombres impairs présents dans la liste."].
+[insère le ton sujet ici entre parenthèse, n'hésite pas à inclure des détails. "Écrire une fonction en Python qui prend en entrée une liste de nombres et renvoie la somme de tous les nombres impairs présents dans la liste."]
 
 Fournir la réponse uniquement.
 ```
+## Exemple concrète :
+```
+Veuillez configurer les paramètres pour la génération de la réponse :
+- Temperature (0.0 à 1.0) : 0.8
+- Top_p (0.0 à 1.0) : 0.8
+
+Temperature contrôle le degré de variabilité dans la réponse générée. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
+
+Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
+
+Quel est le problème ou la tâche que vous souhaitez résoudre ? 
+"Générez des idées innovantes pour améliorer l'expérience utilisateur d'une application de planification de voyages, en mettant particulièrement l'accent sur des fonctionnalités ou des améliorations qui rendraient l'application plus conviviale et pratique pour les voyageurs."
+
+Fournir la réponse uniquement.
+```
+
 Exemple de réponse :
 ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/86927197-8829-4337-941f-d08413626d92)
 
