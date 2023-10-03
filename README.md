@@ -414,7 +414,7 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 ### Recommandations pour `temperature` et `top_p`
 
 
-| Cas d'utilisation             | Température | Top_p | Description |
+| Cas d'utilisation             | Temperature | Top_p | Description |
 |-------------------------------|-------------|-------|-------------|
 | Optimisation d'algorithmes    | 0.1         | 0.1   | Ajuste les algorithmes pour améliorer les performances et l'efficacité. La sortie est déterministe et concentrée sur des techniques d'optimisation établies. |
 | Génération de code           | 0.2         | 0.1   | Génère du code qui adhère aux modèles et conventions établis. La sortie est plus déterministe et concentrée. Utile pour générer du code syntaxiquement correct. |
