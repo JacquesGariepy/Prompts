@@ -452,7 +452,7 @@ Quel est le problème ou la tâche que vous souhaitez résoudre ?
 Fournir la réponse uniquement.
 ```
 Exemple de réponse :
-![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/7b166b85-2987-456c-a413-1fda42b29e22)
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/86927197-8829-4337-941f-d08413626d92)
 
 
 ### Paramètre `prompt`
