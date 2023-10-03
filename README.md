@@ -442,7 +442,7 @@ Veuillez configurer les paramètres pour la génération de la réponse :
 - Temperature (0.0 à 1.0) : ___
 - Top_p (0.0 à 1.0) : ___
 
-Temperature contrôle le degré de variabilité dans le code généré. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
+Temperature contrôle le degré de variabilité dans la réponse générée. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
 
 Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
 
