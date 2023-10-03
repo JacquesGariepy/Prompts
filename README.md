@@ -451,7 +451,7 @@ Quel est le problème ou la tâche que vous souhaitez résoudre ?
 
 Fournir la réponse uniquement.
 ```
-## Exemple concrète :
+### Exemple spécifique :
 ```
 Veuillez configurer les paramètres pour la génération de la réponse :
 - Temperature (0.0 à 1.0) : 0.8
