@@ -438,17 +438,22 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 ### Prompt permettant le controle de la température et du top_p :
 >
 ```
-Veuillez configurer les paramètres pour la génération du code source :
-- Temperature (0.0 à 1.0) : ______
-- Top_p (0.0 à 1.0) : ______
+euillez configurer les paramètres pour la génération du code source :
+- Temperature (0.0 à 1.0) : ___
+- Top_p (0.0 à 1.0) : ___
 
 Temperature contrôle le degré de variabilité dans le code généré. Une température plus basse produira une réponse plus déterministe et conforme aux conventions, tandis qu'une température plus élevée encouragera une variété et créativité plus grande dans la réponse.
 
 Top_p contrôle la diversité de la réponse en tronquant le pool de tokens possibles. Une valeur plus basse rendra la réponse plus prévisible, tandis qu'une valeur plus élevée permettra plus de diversité dans la réponse généré.
 
 Quel est le problème ou la tâche que vous souhaitez résoudre ? 
-(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) :
+(Exemple : création d'un type générique pour manipuler des collections de données, développement d'une bibliothèque de types génériques, brainstorming d'idée sur la création d'un projet éducatif, etc.) : création d'une liste en python permettant de trier selon un ordre à définir.
+
+Fournir la réponse uniquement.
 ```
+Exemple de réponse :
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/7b166b85-2987-456c-a413-1fda42b29e22)
+
 
 ### Paramètre `prompt`
 - **Description** : Le texte que vous souhaitez soumettre au modèle pour obtenir une réponse.
