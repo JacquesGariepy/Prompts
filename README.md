@@ -401,6 +401,8 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 - **Exemple** :
 > `0.7` (Réponse modérément aléatoire)
 
+
+
 ### `top_p`
 - **Description** : Utilisé pour le filtrage nucleus. Contrôle la diversité des réponses en sélectionnant un sous-ensemble des tokens les plus probables pour la génération.
 - **Réponses exactes**: Une valeur de `Top_p` plus faible (proche de 0) limitera le modèle à des réponses plus exactes et moins diversifiées.
@@ -411,6 +413,30 @@ L'exploration des paramètres comme la `Temperature` et `Top_p` est essentielle 
 
 ### Recommandations pour `temperature` et `top_p`
 Il est généralement conseillé de ne pas ajuster les deux paramètres en même temps. Si vous cherchez à obtenir un résultat très spécifique, il peut être utile de faire des tests en modifiant un seul paramètre à la fois pour observer les effets.
+
+Use Case                     | Temperature | Top_p | Description
+------------------------------------------------------------------------------------------------
+Code Generation              | 0.2         | 0.1   | Generates code that adheres to established patterns and conventions. Output is more deterministic and focused. Useful for generating syntactically correct code.
+Creative Writing             | 0.7         | 0.8   | Generates creative and diverse text for storytelling. Output is more exploratory and less constrained by patterns.
+Chatbot Responses            | 0.5         | 0.5   | Generates conversational responses that balance coherence and diversity. Output is more natural and engaging.
+Code Comment Generation      | 0.3         | 0.2   | Generates code comments that are more likely to be concise and relevant. Output is more deterministic and adheres to conventions.
+Data Analysis Scripting      | 0.2         | 0.1   | Generates data analysis scripts that are more likely to be correct and efficient. Output is more deterministic and focused.
+Exploratory Code Writing     | 0.6         | 0.7   | Generates code that explores alternative solutions and creative approaches. Output is less constrained by established patterns.
+Algorithm Optimization       | 0.1         | 0.1   | Fine-tunes algorithms to improve performance and efficiency. Output is deterministic and focused on established optimization techniques.
+Debugging Script Generation  | 0.2         | 0.2   | Generates scripts that assist in identifying and resolving bugs. Output is more deterministic and adheres to debugging conventions.
+User Interface Design        | 0.8         | 0.8   | Generates creative and visually appealing user interface designs. Output is more exploratory and less constrained by established patterns.
+Automated Testing            | 0.2         | 0.1   | Generates test cases and scripts for automated testing. Output is deterministic and focused on covering different testing scenarios.
+Documentation Writing        | 0.4         | 0.3   | Generates clear and concise documentation. Output balances adherence to documentation standards with the need for clarity and comprehensibility.
+API Scripting                | 0.2         | 0.1   | Generates scripts for interacting with APIs in a correct and efficient manner. Output is deterministic and adheres to API conventions.
+Innovative Algorithm Design  | 0.8         | 0.8   | Fosters the generation of innovative algorithms by exploring unconventional solutions. Output is highly exploratory and challenges established norms.
+Experimental Code Writing    | 0.9         | 0.9   | Encourages the exploration of novel coding techniques and paradigms. Output is highly exploratory, fostering creativity and outside-the-box thinking.
+Artistic Design Generation   | 1.0         | 1.0   | Facilitates the generation of unique, artistic designs. Output is unrestricted, maximizing creativity and originality.
+Narrative Exploration        | 0.8         | 1.0   | Generates diverse narrative structures and storylines, promoting a wide range of creative storytelling possibilities.
+Concept Development          | 1.0         | 0.8   | Enables the development of new concepts by combining existing ideas in novel ways. Output is highly creative and less constrained by existing paradigms.
+Brainstorming Assistant      | 0.9         | 1.0   | Generates a broad range of innovative ideas for brainstorming sessions. Output is maximally exploratory, pushing the boundaries of conventional thinking.
+
+
+
 
 ### `prompt`
 - **Description** : Le texte que vous souhaitez soumettre au modèle pour obtenir une réponse.
