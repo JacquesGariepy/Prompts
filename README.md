@@ -527,6 +527,13 @@ Je vais essayer! Voici une explication de l'erreur quadratique moyenne :
 L'erreur quadratique moyenne mesure à quel point une estimation diffère de la vraie valeur. Si vous imaginez que vous essayez de frapper une cible avec une flèche, l'erreur quadratique moyenne serait la distance entre l'endroit où vous avez réellement frappé la cible et l'endroit où vous avez visé. Plus l'erreur quadratique moyenne est petite, plus vous êtes précis.
 ```
 
+## Technique "Cio" (Context Input Output) 
+```
+**Contexte** : Vous écrivez pour un public d'enfants de 5 à 7 ans.
+**Input Data** : Qu'est-ce que la photosynthèse ?
+**Output Indicator** : Répondez en moins de trois phrases.
+```
+
 ## JSON response Prompt
 
 ### Email extracting
