@@ -259,6 +259,37 @@ L'**amorçage** est une technique consistant à fournir des informations initial
 
 Est-ce que cette explication vous donne une vision claire de la technique d'amorçage et de son importance dans la formulation de prompts ? Avez-vous d'autres questions à ce sujet ?
 
+### Six grandes catégories de modèles d'invite
+1.  Sémantique d’entrée. "La catégorie Sémantique d'entrée traite de la manière dont un LLM comprend l'entrée et comment il traduit l'entrée en quelque chose qu'il peut utiliser pour générer une sortie.". Interpréter des parties de votre invite comme si vous définissiez vos propres raccourcis ou un jargon spécialisé. Ceci est plus formellement appelé modèle de création de méta-langage.
+
+- Sémantique d'entrée:
+
+Définition: Elle se réfère à la manière dont un prompt est structuré et à la signification implicite ou explicite qu'il porte. Cela concerne la capacité du prompt à être clair et compréhensible pour le modèle, afin de produire une réponse appropriée.
+
+Exemple: Si un ingénieur veut que le modèle fournisse une définition, il pourrait structurer le prompt comme suit : ```Qu'est-ce que [terme] ?```. La sémantique d'entrée ici est claire: le modèle est attendu pour fournir une définition.
+
+- Modèle de création de méta-langage:
+
+Définition: Dans le cadre du prompt engineering, un méta-langage pourrait être un ensemble de conventions ou de syntaxes que l'ingénieur utilise pour communiquer de manière plus efficace avec le modèle, surtout s'il s'agit d'instructions plus complexes ou d'attentes particulières en matière de formatage de la réponse.
+
+Exemple: Imaginons que l'ingénieur veuille une liste structurée en réponse. Il pourrait utiliser un méta-langage tel que: ```Liste-moi les points suivants sur [sujet]:```. Ce "Liste-moi" pourrait être interprété par le modèle comme une instruction pour formater la réponse sous forme de liste.
+
+Résumé:
+
+Sémantique d'entrée: Elle concerne la clarté et l'efficacité avec laquelle un prompt est formulé pour obtenir une réponse précise du modèle.
+Modèle de création de méta-langage: C'est une convention ou une syntaxe que l'ingénieur peut utiliser pour communiquer des instructions plus complexes ou des attentes spécifiques en matière de formatage.
+   
+```
+
+```
+2. Personnalisation de la sortie. "La catégorie Personnalisation de la sortie se concentre sur la contrainte ou l'adaptation des types, des formats, de la structure ou d'autres propriétés de la sortie générée par le LLM."
+3. Identification des erreurs. «La catégorie Identification des erreurs se concentre sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.»
+4. Amélioration rapide. "La catégorie Amélioration rapide se concentre sur l'amélioration de la qualité des entrées et des sorties."
+5. Interactions. "La catégorie Interaction se concentre sur l'interaction entre l'utilisateur et le LLM."
+6. Contrôle du contexte. "La catégorie Contrôle du contexte se concentre sur le contrôle des informations contextuelles dans lesquelles le LLM fonctionne."
+
+
+
 ## Liste de 10 déclencheurs de prompts simples
 
 1. **Acteur : Bibliothécaire**
@@ -983,6 +1014,47 @@ Guidelines:
 Remember, use the exact same number of words for each summary.
 
 Answer in JSON. The JSON should be a list (length 5) of dictionaries whose keys are "Missing_Entities" and "Denser_Summary".
+```
+
+## Méta-langage de configuration: PromptML
+PromptML est un méta-langage hypothétique destiné à structurer et à formuler des prompts pour un modèle de traitement du langage naturel.
+En utilisant des commandes spécifiques comme [DEFINE], [LIST], etc., il permet une interaction plus précise avec le modèle.
+
+### PromptML - Framework initiale
+```
+Commandes de base:
+[DEFINE]: Donne une définition du terme suivant.
+[LIST]: Fournit une liste structurée sur le sujet suivant.
+[DEEP]: Explore le sujet en profondeur.
+[SUMMARIZE]: Donne un résumé bref du sujet suivant.
+[ANALYZE]: Analyse le sujet ou la situation suivante.
+```
+
+- Exemples d'tilisation du Framework dans des prompts:
+```
+Prompt: [DEFINE] Méta-langage
+Réponse attendue: "Un méta-langage est un langage utilisé pour décrire ou définir un autre langage. Il est souvent utilisé dans des contextes tels que la définition de langages de programmation ou la configuration de systèmes."
+```
+```
+Prompt: [LIST] Avantages de l'utilisation d'un méta-langage
+Réponse attendue:
+
+Il offre une structure claire pour la communication.
+Il permet de définir des conventions pour des interactions spécifiques.
+Il peut rendre la formulation des prompts plus intuitive.
+Il facilite la standardisation des requêtes.
+```
+```
+Prompt: [DEEP] Historique des méta-langages
+Réponse attendue: "Les méta-langages ont leurs racines dans les premiers jours de l'informatique théorique. La forme Backus-Naur (BNF), par exemple, est un méta-langage couramment utilisé pour définir la syntaxe des langages de programmation. À mesure que la technologie a évolué, l'importance des méta-langages a grandi, notamment avec l'émergence des ontologies et des langages de description de services dans le domaine du Web sémantique..."
+```
+```
+Prompt: [SUMMARIZE] Importance du prompt engineering
+Réponse attendue: "Le prompt engineering est essentiel pour formuler efficacement des questions ou des directives à un modèle de traitement du langage naturel, assurant ainsi des réponses précises et pertinentes."
+```
+```
+Prompt: [ANALYZE] Comment les méta-langages influencent-ils le développement logiciel ?
+Réponse attendue: "Les méta-langages jouent un rôle crucial dans le développement logiciel en offrant un moyen structuré de définir et de comprendre les langages de programmation. Ils permettent une meilleure abstraction, standardisation et compréhension, ce qui facilite la collaboration entre les développeurs et rend le code plus robuste et maintenable."
 ```
 
 # Images processing
