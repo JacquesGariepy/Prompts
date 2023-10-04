@@ -279,7 +279,7 @@ Résumé:
 Sémantique d'entrée: Elle concerne la clarté et l'efficacité avec laquelle un prompt est formulé pour obtenir une réponse précise du modèle.
 Modèle de création de méta-langage: C'est une convention ou une syntaxe que l'ingénieur peut utiliser pour communiquer des instructions plus complexes ou des attentes spécifiques en matière de formatage.
    
-
+[Exemple de méta-langage et de son utilisation dans les prompts](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#m%C3%A9ta-langage-de-configuration-promptml)
 
 2. Personnalisation de la sortie. "La catégorie Personnalisation de la sortie se concentre sur la contrainte ou l'adaptation des types, des formats, de la structure ou d'autres propriétés de la sortie générée par le LLM."
 3. Identification des erreurs. «La catégorie Identification des erreurs se concentre sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.»
