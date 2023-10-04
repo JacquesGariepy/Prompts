@@ -259,33 +259,53 @@ L'**amorçage** est une technique consistant à fournir des informations initial
 
 Est-ce que cette explication vous donne une vision claire de la technique d'amorçage et de son importance dans la formulation de prompts ? Avez-vous d'autres questions à ce sujet ?
 
-### Six grandes catégories de modèles d'invite
-1.  Sémantique d’entrée. "La catégorie Sémantique d'entrée traite de la manière dont un LLM comprend l'entrée et comment il traduit l'entrée en quelque chose qu'il peut utiliser pour générer une sortie.". Interpréter des parties de votre invite comme si vous définissiez vos propres raccourcis ou un jargon spécialisé. Ceci est plus formellement appelé modèle de création de méta-langage.
+## Modèles d'invite en six grandes catégories 
 
-- Sémantique d'entrée:
+### 1. Sémantique d'entrée
 
-Définition: Elle se réfère à la manière dont un prompt est structuré et à la signification implicite ou explicite qu'il porte. Cela concerne la capacité du prompt à être clair et compréhensible pour le modèle, afin de produire une réponse appropriée.
+**Description**: La catégorie "Sémantique d'entrée" s'intéresse à la manière dont un LLM (Langage Model) interprète et traduit l'entrée pour générer une sortie. Cette catégorie permet d'interpréter des parties de votre invite comme des raccourcis ou un jargon spécialisé, une technique appelée "modèle de création de méta-langage".
 
-Exemple: Si un ingénieur veut que le modèle fournisse une définition, il pourrait structurer le prompt comme suit : ```Qu'est-ce que [terme] ?```. La sémantique d'entrée ici est claire: le modèle est attendu pour fournir une définition.
+- **Sémantique d'entrée**:
+    - **Définition**: Se réfère à la structuration d'un prompt et à sa signification implicite ou explicite.
+    - **Exemple**: 
+        ```markdown
+        Qu'est-ce que [terme] ?
+        ```
+    Ceci indique clairement l'attente d'une définition.
 
-- Modèle de création de méta-langage:
+- **Modèle de création de méta-langage**:
+    - **Définition**: Un ensemble de conventions ou de syntaxes utilisées pour communiquer efficacement avec le LLM.
+    - **Exemple**:
+        ```markdown
+        Liste-moi les points suivants sur [sujet]:
+        ```
+    Ceci est interprété comme une demande de liste structurée.
 
-Définition: Dans le cadre du prompt engineering, un méta-langage pourrait être un ensemble de conventions ou de syntaxes que l'ingénieur utilise pour communiquer de manière plus efficace avec le modèle, surtout s'il s'agit d'instructions plus complexes ou d'attentes particulières en matière de formatage de la réponse.
+**Résumé**:
+- **Sémantique d'entrée**: Focalisation sur la clarté et l'efficacité des prompts.
+- **Modèle de création de méta-langage**: Utilisation de conventions ou syntaxes pour des directives spécifiques.
 
-Exemple: Imaginons que l'ingénieur veuille une liste structurée en réponse. Il pourrait utiliser un méta-langage tel que: ```Liste-moi les points suivants sur [sujet]:```. Ce "Liste-moi" pourrait être interprété par le modèle comme une instruction pour formater la réponse sous forme de liste.
+[Voir un exemple de méta-langage et de son utilisation](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#m%C3%A9ta-langage-de-configuration-promptml)
 
-Résumé:
+### 2. Personnalisation de la sortie
 
-Sémantique d'entrée: Elle concerne la clarté et l'efficacité avec laquelle un prompt est formulé pour obtenir une réponse précise du modèle.
-Modèle de création de méta-langage: C'est une convention ou une syntaxe que l'ingénieur peut utiliser pour communiquer des instructions plus complexes ou des attentes spécifiques en matière de formatage.
-   
-[Exemple de méta-langage et de son utilisation dans les prompts](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#m%C3%A9ta-langage-de-configuration-promptml)
+**Description**: Cette catégorie se focalise sur l'adaptation des types, formats, structures ou autres propriétés de la sortie générée par le LLM.
 
-2. Personnalisation de la sortie. "La catégorie Personnalisation de la sortie se concentre sur la contrainte ou l'adaptation des types, des formats, de la structure ou d'autres propriétés de la sortie générée par le LLM."
-3. Identification des erreurs. «La catégorie Identification des erreurs se concentre sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.»
-4. Amélioration rapide. "La catégorie Amélioration rapide se concentre sur l'amélioration de la qualité des entrées et des sorties."
-5. Interactions. "La catégorie Interaction se concentre sur l'interaction entre l'utilisateur et le LLM."
-6. Contrôle du contexte. "La catégorie Contrôle du contexte se concentre sur le contrôle des informations contextuelles dans lesquelles le LLM fonctionne."
+### 3. Identification des erreurs
+
+**Description**: Concentration sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.
+
+### 4. Amélioration rapide
+
+**Description**: Se concentre sur l'amélioration qualitative des entrées et des sorties.
+
+### 5. Interactions
+
+**Description**: Aborde l'interaction entre l'utilisateur et le LLM.
+
+### 6. Contrôle du contexte
+
+**Description**: Focalisation sur le contrôle des informations contextuelles avec lesquelles le LLM opère.
 
 
 
