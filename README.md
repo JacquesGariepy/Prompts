@@ -1042,8 +1042,8 @@ En utilisant des commandes spécifiques comme [DEFINE], [LIST], etc., il permet 
 ### PromptML - Framework initiale
 ```
 Commandes de base:
-[DEFINE]: Donne une définition du terme suivant.
-[LIST]: Fournit une liste structurée sur le sujet suivant.
+/DEFINE : Donne une définition du terme suivant.
+/LIST : Fournit une liste structurée sur le sujet suivant.
 [DEEP]: Explore le sujet en profondeur.
 [SUMMARIZE]: Donne un résumé bref du sujet suivant.
 [ANALYZE]: Analyse le sujet ou la situation suivante.
