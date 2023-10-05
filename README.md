@@ -339,7 +339,7 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
    ```
 6. **Acteur : Astronaute**
    ```
-   Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?```
+   Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?
    ```
 8. **Acteur : Jardinier**
    ```
@@ -347,7 +347,7 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
    ```
 
 10. **Acteur : Professeur de musique**
-   ```
+    ```
     Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?
     ```
 
