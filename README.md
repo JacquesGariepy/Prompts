@@ -287,29 +287,33 @@ Est-ce que cette explication vous donne une vision claire de la technique d'amor
 
 [Voir un exemple de méta-langage et de son utilisation](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#m%C3%A9ta-langage-de-configuration-promptml)
 
-### 2. Personnalisation de la sortie
+### 2. Personnalisation de la sortie: Modèle "Persona"
 
-**Description**: Cette catégorie se focalise sur l'adaptation des types, formats, structures ou autres propriétés de la sortie générée par le LLM.
+La personnalisation de la sortie est une dimension essentielle en prompt engineering. Un modèle courant dans cette catégorie est le "Persona", qui consiste à donner à l'IA une personnalité ou un rôle spécifique.
 
-### 3. Identification des erreurs
+Il est crucial de noter que, même si l'IA peut adopter un rôle ou une personnalité, elle n'a pas l'expertise réelle associée à ce rôle. Ainsi, il est important de ne pas tomber dans le piège de croire que l'IA possède une expertise réelle.
 
-**Description**: Concentration sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.
+Le modèle "Persona" peut simuler tant des rôles humains que non humains ou même des perspectives spécifiques. 
 
-### 4. Amélioration rapide
+---
 
-**Description**: Se concentre sur l'amélioration qualitative des entrées et des sorties.
+#### Exemples de personnalisation:
 
-### 5. Interactions
+1. **Développeur - Code Review**:
+    - **Prompt**: "[Consultez ce lien pour un exemple](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#developper---code-review). Que pensez-vous de ce code en termes d'optimisation et de lisibilité?"
+    - **Réponse IA**: "Le code semble bien structuré, mais il pourrait bénéficier de commentaires supplémentaires pour une meilleure lisibilité. De plus, la fonction `XYZ` pourrait être optimisée en utilisant une boucle différente."
 
-**Description**: Aborde l'interaction entre l'utilisateur et le LLM.
+2. **Data Scientist**:
+    - **Prompt**: "[Consultez ce lien pour un exemple](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#data-scientist). Comment pourriez-vous améliorer ce modèle de machine learning?"
+    - **Réponse IA**: "Le modèle utilise actuellement une régression linéaire, mais étant donné la nature non linéaire des données, un modèle comme le Random Forest pourrait offrir de meilleures performances. De plus, une validation croisée serait bénéfique pour évaluer la robustesse du modèle."
 
-### 6. Contrôle du contexte
+3. **Richard Feynman**:
+    - **Prompt**: "[Consultez ce lien pour un exemple](https://github.com/JacquesGariepy/Prompts/blob/main/README.md#richard-feynman-prompt). Si vous étiez Richard Feynman, comment expliqueriez-vous le concept de la relativité à un enfant?"
+    - **Réponse IA**: "Imaginez que vous êtes dans un train en mouvement et que vous lancez une balle en l'air. Pour vous, dans le train, la balle monte et descend en ligne droite. Mais pour quelqu'un à l'extérieur du train, la balle semble se déplacer en diagonale, car le train est en mouvement. La relativité, c'est comprendre comment les choses semblent différentes selon d'où vous les regardez."
 
-**Description**: Focalisation sur le contrôle des informations contextuelles avec lesquelles le LLM opère.
+Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différents rôles ou perspectives dans le contexte de l'IA générative.
 
-
-
-## Liste de 10 déclencheurs de prompts simples
+***Liste de 10 déclencheurs de prompts simples***
 
 1. **Acteur : Bibliothécaire**
    ```
@@ -349,6 +353,25 @@ Est-ce que cette explication vous donne une vision claire de la technique d'amor
 
 10. **Acteur : Professeur MIT**
     ```Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme.```
+
+
+### 3. Identification des erreurs
+
+**Description**: Concentration sur l'identification et la résolution des erreurs dans les résultats générés par le LLM.
+
+### 4. Amélioration rapide
+
+**Description**: Se concentre sur l'amélioration qualitative des entrées et des sorties.
+
+### 5. Interactions
+
+**Description**: Aborde l'interaction entre l'utilisateur et le LLM.
+
+### 6. Contrôle du contexte
+
+**Description**: Focalisation sur le contrôle des informations contextuelles avec lesquelles le LLM opère.
+
+
 
 # Techniques
 ## Zero-Shot Prompting
