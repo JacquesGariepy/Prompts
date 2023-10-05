@@ -113,12 +113,12 @@ L'importance de chaque composant varie en fonction de la tâche. En comprenant c
 
 ## Création efficace de prompts
 
-### Niveaux d'explication et large vs. spécifique
+### Niveaux d'explication généraliste vs. spécifique
 Adapter la complexité de la réponse en fonction de l'audience :
-- **Exemple** : Décrivez-moi "le soleil" pour un élève de CP vs. un lycéen vs. un astrophysicien.
-- Choisir ses sources : Livres à lire cette année vs. les 10 livres essentiels pour un musicien en herbe.
+- **Exemple** : Décrivez-moi "le soleil" pour un enfant de  6ans vs. un adolescent vs. un astrophysicien.
+- Choisir ses sources : Livres à lire cette année vs. les 10 livres essentiels pour un musicien débutant vs. les 5 livres les plus ciblés pour un expert de la guitare électrique.
 
-### Formule ChatGPT : Livre de prompts pour GITHUB
+### Formululation d'un prompt
 1. **Contextualisez votre prompt** : Définissez comment vous souhaitez que GPT interagisse avec vous.
    - **Exemples** : 
      - "Vous allez agir en tant que..."
@@ -144,7 +144,6 @@ Adapter la complexité de la réponse en fonction de l'audience :
 ## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
 
 Les modificateurs sont essentiels pour nuancer et préciser vos prompts. Voici comment ils peuvent influencer les réponses :
-
 
 ## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
 
