@@ -337,10 +337,12 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
    ```
    Parle-moi de la Renaissance en Europe.
    ```
+   
 6. **Acteur : Astronaute**
    ```
    Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?
    ```
+   
 8. **Acteur : Jardinier**
    ```
    Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?
@@ -352,7 +354,7 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
     ```
 
 12. **Acteur : Avocat**
-   ```
+    ```
     Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?
     ```
 
