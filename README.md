@@ -291,8 +291,6 @@ Est-ce que cette explication vous donne une vision claire de la technique d'amor
 
 La personnalisation de la sortie est une dimension essentielle en prompt engineering. Un modèle courant dans cette catégorie est le "Persona", qui consiste à donner à l'IA une personnalité ou un rôle spécifique.
 
-Il est crucial de noter que, même si l'IA peut adopter un rôle ou une personnalité, elle n'a pas l'expertise réelle associée à ce rôle. Ainsi, il est important de ne pas tomber dans le piège de croire que l'IA possède une expertise réelle.
-
 Le modèle "Persona" peut simuler tant des rôles humains que non humains ou même des perspectives spécifiques. 
 
 ---
@@ -313,7 +311,7 @@ Le modèle "Persona" peut simuler tant des rôles humains que non humains ou mê
 
 Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différents rôles ou perspectives dans le contexte de l'IA générative.
 
-***Liste de 10 déclencheurs de prompts simples***
+***Liste d'exemples supplémentaires de personnalisation***
 
 1. **Acteur : Bibliothécaire**
    ```
@@ -338,22 +336,30 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
 5. **Acteur : Historien**
    ```
    Parle-moi de la Renaissance en Europe.
-
+   ```
 6. **Acteur : Astronaute**
-   ```Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?```
+   ```
+   Act Astronaute. Comment fonctionne la vie quotidienne sur la Station spatiale internationale ?```
+   ```
+8. **Acteur : Jardinier**
+   ```
+   Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?
+   ```
 
-7. **Acteur : Jardinier**
-   ```Act Jardinier. Comment puis-je prendre soin de mes rosiers en été ?```
+10. **Acteur : Professeur de musique**
+   ```
+    Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?
+    ```
 
-8. **Acteur : Professeur de musique**
-   ```Act Professeur de musique classique. Quels sont les éléments de base pour lire une partition ?```
+12. **Acteur : Avocat**
+   ```
+    Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?
+    ```
 
-9. **Acteur : Avocat**
-   ```Act Jardinier Avocat. Quelle est la différence entre le droit pénal et le droit civil ?```
-
-10. **Acteur : Professeur MIT**
-    ```Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme.```
-
+13. **Acteur : Professeur MIT**
+    ```
+    Act professeur au MIT. Aide-moi à comprendre ce qu'est un algorithme.
+    ```
 
 ### 3. Identification des erreurs
 
