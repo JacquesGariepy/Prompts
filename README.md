@@ -1091,6 +1091,7 @@ Cmds:
 ```
 
 ## Chain of Density (CoD) Prompt
+https://github.com/JacquesGariepy/Prompts#chain-of-density-cod-prompt
 ```
 Article: {{```article here```}}
 
