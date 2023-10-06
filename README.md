@@ -388,8 +388,6 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
 2. [Activation et Installation des Plugins](#activation-et-installation-des-plugins)
 3. [Utilisation Avancée des Plugins](#utilisation-avancée-des-plugins)
 4. [Exemple Concret](#exemple-concret)
-5. [Dépannage et Résolution des Problèmes](#dépannage-et-résolution-des-problèmes)
-6. [Résumé](#résumé)
 
 ---
 
