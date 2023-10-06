@@ -380,7 +380,6 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
 
 
 # Tutoriel Technique sur l'Utilisation des Plugins de ChatGPT
-## Par le Professeur OpenAI
 
 ---
 
