@@ -394,7 +394,7 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
 ---
 
 ## Introduction
-Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension technique approfondie des plugins de ChatGPT. Vous apprendrez non seulement à activer et utiliser les plugins, mais aussi à les maîtriser.
+Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension des plugins de ChatGPT. Vous apprendrez non seulement à activer et utiliser les plugins, mais aussi à les utiliser. Il est nécessaire, au moment de l'écriture de ce tutoriel, d'avoir un compte "Plus" afin de pouvoir utiliser les plugins.
 
 ---
 
