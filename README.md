@@ -409,14 +409,15 @@ Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension des 
 ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/8e255ca5-4c97-48d8-92af-959758b8f33a)
 
 4. Ouvrir une nouvelle conversation et sélectionner les plugins que vous désirez utiliser lors de la conversation.
-![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/a38471c9-d3c0-4a8c-8501-8fffff6362c9)
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/05df7162-8d04-47e5-b74c-8e3cd9e19d39)
+
 
 ---
 
-## Utilisation Avancée des Plugins
+## Utilisation des Plugins
 ### Méthodologie
 
-1. **Invocation du Plugin**: Utilisez des commandes spécifiques ou des mots-clés pour invoquer le plugin.
+1. **Invocation du Plugin**: Utilisez des commandes spécifiques ou des mots-clés pour invoquer le plugin. Exemple vous pouvez demander d'utiliser internet ou spécifier directement le nom du plugins.
    ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/8019f1de-0087-4ef0-86c8-89f4b998c1a0)
 
 2. **Paramètres d'Entrée**: Certains plugins acceptent des arguments ou des paramètres pour affiner les résultats.
