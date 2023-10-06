@@ -379,6 +379,62 @@ Ces exemples montrent la capacité du modèle "Persona" à s'adapter à différe
 **Description**: Focalisation sur le contrôle des informations contextuelles avec lesquelles le LLM opère.
 
 
+# Tutoriel Technique sur l'Utilisation des Plugins de ChatGPT
+## Par le Professeur OpenAI
+
+---
+
+## Table des Matières
+1. [Introduction](#introduction)
+2. [Activation et Installation des Plugins](#activation-et-installation-des-plugins)
+3. [Utilisation Avancée des Plugins](#utilisation-avancée-des-plugins)
+4. [Exemple Concret](#exemple-concret)
+5. [Dépannage et Résolution des Problèmes](#dépannage-et-résolution-des-problèmes)
+6. [Résumé](#résumé)
+
+---
+
+## Introduction
+Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension technique approfondie des plugins de ChatGPT. Vous apprendrez non seulement à activer et utiliser les plugins, mais aussi à les maîtriser.
+
+---
+
+## Activation et Installation des Plugins
+### Étapes Techniques
+
+1. **Accéder au Menu des Plugins**: Dans le menu en bas de l'écran, appuyer sur votre nom. ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/0e1562fa-51ee-434c-aedc-5976b22bb52d)
+
+2. **Activation des Plugins**: Localisez l'icône en forme de "puzzle" dans l'interface utilisateur de ChatGPT.
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/46f39cd2-1ce8-4b47-b909-ddf09f0d531e)
+
+3. **Sélection et Installation**: Cliquez sur le plugin de votre choix et suivez le processus d'installation, qui peut inclure l'octroi de permissions spécifiques.
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/8e255ca5-4c97-48d8-92af-959758b8f33a)
+
+4. Ouvrir une nouvelle conversation et sélectionner les plugins que vous désirez utiliser lors de la conversation.
+
+---
+
+## Utilisation Avancée des Plugins
+### Méthodologie
+
+1. **Invocation du Plugin**: Utilisez des commandes spécifiques ou des mots-clés pour invoquer le plugin.
+   ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/8019f1de-0087-4ef0-86c8-89f4b998c1a0)
+
+2. **Paramètres d'Entrée**: Certains plugins acceptent des arguments ou des paramètres pour affiner les résultats.
+3. **Interprétation des Sorties**: Apprenez à lire et à interagir avec les données ou les résultats fournis par le plugin.
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/81f4f9b2-7877-4206-a3c4-b37114be6e6e)
+
+---
+
+## Exemple Concret
+### Utilisation de Whimsical pour Créer un Diagramme de Flux
+
+1. **Invocation**: Tapez "Recherche sur internet et Crée un mindmap sur les techniques de marketing".
+2. **Paramètres d'Entrée**: act Robert C. Martin. Recherche sur internet avec BrowserOp et fournis moi les informations sur l'architecture CLEAN. Rédige ensuite un mindmap de l'architecture CLEAN".
+3. **Interprétation des Sorties**: Vous recevrez les informations sur l'architecture CLEAN et par la suite le mindmap que Vous pouvez ensuite éditer.
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/299a5cef-943b-4347-ad3f-eebf22c44a12)
+
+
 
 # Techniques
 ## Zero-Shot Prompting
@@ -1144,3 +1200,5 @@ Remember, the goal is to capture the elegance and sophistication of the fox figu
 
 
 [+150 prompts](https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv)
+
+
