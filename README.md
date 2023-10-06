@@ -399,7 +399,8 @@ Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension des 
 ## Activation et Installation des Plugins
 ### Étapes Techniques
 
-1. **Accéder au Menu des Plugins**: Dans le menu en bas de l'écran, appuyer sur votre nom. ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/0e1562fa-51ee-434c-aedc-5976b22bb52d)
+1. **Accéder au Menu des Plugins**: Dans le menu en bas de l'écran, appuyer sur votre nom.
+   ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/0e1562fa-51ee-434c-aedc-5976b22bb52d)
 
 2. **Activation des Plugins**: Localisez l'icône en forme de "puzzle" dans l'interface utilisateur de ChatGPT.
 ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/46f39cd2-1ce8-4b47-b909-ddf09f0d531e)
@@ -408,6 +409,7 @@ Ce tutoriel est destiné aux utilisateurs qui souhaitent une compréhension des 
 ![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/8e255ca5-4c97-48d8-92af-959758b8f33a)
 
 4. Ouvrir une nouvelle conversation et sélectionner les plugins que vous désirez utiliser lors de la conversation.
+![image](https://github.com/JacquesGariepy/Prompts/assets/12863398/a38471c9-d3c0-4a8c-8501-8fffff6362c9)
 
 ---
 
