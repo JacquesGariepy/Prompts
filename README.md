@@ -118,7 +118,7 @@ Adapter la complexité de la réponse en fonction de l'audience :
 - **Exemple** : Décrivez-moi "le soleil" pour un enfant de  6ans vs. un adolescent vs. un astrophysicien.
 - Choisir ses sources : Livres à lire cette année vs. les 10 livres essentiels pour un musicien débutant vs. les 5 livres les plus ciblés pour un expert de la guitare électrique.
 
-### Formululation d'un prompt
+### Formulation d'un prompt
 1. **Contextualisez votre prompt** : Définissez comment vous souhaitez que GPT interagisse avec vous.
    - **Exemples** : 
      - "Vous allez agir en tant que..."
