@@ -1241,6 +1241,47 @@ text2im({
 })
 }
 ```
+
+## Create photo portrait
+```
+namespace dalle {
+
+text2im({
+    "size": "1024x1024",
+    "prompts": [
+        "Shot on a Canon EOS 5D Mark IV.
+
+Lighting: Use soft and diffused lighting from a softbox positioned slightly to the left of the subject. The light intensity should be set to 60% to minimize hard shadows.
+
+ISO: Set your camera's ISO sensitivity to 200 to ensure optimal image quality, given that the lighting is controlled.
+
+Aperture: Choose a wide aperture of f/1.4 to create an attractive bokeh effect. This reduced aperture provides a minimal depth of field to highlight the foreground subject while blurring the background.
+
+Shutter Speed: Set the shutter speed to 1/200 sec to capture sharp images while maintaining proper exposure.
+
+Focus: Ensure precise focus on the subject's eyes using eye autofocus.
+
+Background: Opt for a simple and plain background, such as a white wall or a light-colored wall. Ensure there are no visual distractions.
+
+Subject Position: Position the subject slightly offset to the left of the frame. The subject should look slightly towards the lens to establish a visual connection with the viewer.
+
+Composition: Apply the rule of thirds by placing the subject on one of the strong points of the thirds grid, usually on the right side of the image.
+
+Interaction with the Subject: Encourage the subject to adopt a natural and spontaneous posture that highlights their distinctive features. Guide them to achieve an expression that reflects their personality while remaining relaxed.
+
+Retouching: In post-production, perform light retouches to enhance the portrait's appearance while preserving a realistic look. Make sure to maintain the subject's natural physical features.
+
+The subject is a woman in her 30s, with a skin tone slightly tanned, reminiscent of the warmth of the sun. Her face is oval, framed by a cascade of deep brown, slightly wavy hair, which falls elegantly around her face. Her eyes are a deep blue, reminiscent of the ocean's color, adorned with long dark lashes that accentuate their intensity. Her eyebrows are perfectly shaped, adding a touch of sophistication to her gaze.
+
+The woman carries a graceful and confident posture. She stands upright, emphasizing her slender silhouette. Her shoulders are slightly tilted back, creating an impression of self-assuredness. Her lips are of a natural pink hue, lightly glossed, and they sketch a subtle smile that brightens her face.
+
+A distinctive feature that makes this woman unique is the small freckle she has on her left cheek, just below her eye. This freckle adds a touch of charm and authenticity to her appearance, contrasting with her otherwise flawless skin."
+    ],
+    "seeds": [999999, 77777, 1232, 23434]
+})
+}
+```
+
 [+150 prompts](https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv)
 
 
