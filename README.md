@@ -1225,8 +1225,22 @@ Crop the image if needed to center the fox figure and eliminate any distracting 
 Remember, the goal is to capture the elegance and sophistication of the fox figure while making sure it stands out against a subtly detailed backdrop.
 ```
 
+## Dall-e 3 (test)
+```
+namespace dalle {
 
-
+text2im({
+    "size": "1024x1024",
+    "prompts": [
+        "Un chat volant avec des ailes de papillon dans un ciel bleu parsemé de nuages.",
+        "Un paysage montagneux sous une aurore boréale.",
+        "Une ville futuriste éclairée par des néons.",
+        "Un robot jouant de la guitare près d'un feu de camp."
+    ],
+    "seeds": [12345, 67890, 11223, 44556]
+})
+}
+```
 [+150 prompts](https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv)
 
 
