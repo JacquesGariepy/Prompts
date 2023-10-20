@@ -967,7 +967,15 @@ Very important: make sure that you base the thread’s structure on the input .t
 Never use hashtags nor emojis.
 
 Write in French.
+
+
 ```
+Ajoute ta requête
+ 
+```
+Dans mon étude de marché récente, j'ai découvert des tendances intrigantes qui correspondent à vos résultats. Cela pourrait ouvrir de nouvelles opportunités passionnantes pour nos entreprises.
+```
+
 Ajoute le prompt suivant
 >
 ```
