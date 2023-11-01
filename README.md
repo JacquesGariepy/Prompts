@@ -143,10 +143,6 @@ Adapter la complexité de la réponse en fonction de l'audience :
 
 ## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
 
-Les modificateurs sont essentiels pour nuancer et préciser vos prompts. Voici comment ils peuvent influencer les réponses :
-
-## Utilisation de modificateurs pour optimiser les sorties avec ChatGPT
-
 Les modificateurs jouent un rôle clé dans la nuance et la précision des prompts. Voici une liste des types de modificateurs et comment ils peuvent influencer les réponses :
 
 ### 1. **Qualificatifs** 
