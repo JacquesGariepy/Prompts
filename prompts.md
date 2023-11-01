@@ -7,3 +7,5 @@ https://www.buymeacoffee.com/usandai/how-use-chatgpt-4-prompt-builder-midjourney
 https://realmofai.com/midjourney
 
 https://midjourneypromptsgenerator.com/
+
+https://www.greataiprompts.com/imageprompt/midjourney-text-to-image-ai-prompts/
