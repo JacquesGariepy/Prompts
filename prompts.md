@@ -1,0 +1,1 @@
+https://www.reddit.com/r/overclocking/comments/17jhamf/i_optimizedoverclocked_my_ryzen_7_7800x3d_using/?share_id=hgE8sSJtPDW3UMhZsWL_H&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=2
