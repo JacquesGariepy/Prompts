@@ -5,3 +5,5 @@ https://bootcamp.uxdesign.cc/complete-guide-to-midjourneys-permutation-feature-a
 https://www.buymeacoffee.com/usandai/how-use-chatgpt-4-prompt-builder-midjourney-v5-2023
 
 https://realmofai.com/midjourney
+
+https://midjourneypromptsgenerator.com/
