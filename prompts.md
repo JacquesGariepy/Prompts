@@ -3,3 +3,5 @@ https://www.reddit.com/r/overclocking/comments/17jhamf/i_optimizedoverclocked_my
 https://bootcamp.uxdesign.cc/complete-guide-to-midjourneys-permutation-feature-a2d8eb010c07#c8bf
 
 https://www.buymeacoffee.com/usandai/how-use-chatgpt-4-prompt-builder-midjourney-v5-2023
+
+https://realmofai.com/midjourney
