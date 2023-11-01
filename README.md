@@ -1221,7 +1221,8 @@ Crop the image if needed to center the fox figure and eliminate any distracting 
 Remember, the goal is to capture the elegance and sophistication of the fox figure while making sure it stands out against a subtly detailed backdrop.
 ```
 
-## Dall-e 3 (test)
+## Dall-E 3 (test)
+### 4 prompts, 4 images, 4 seeds
 ```
 namespace dalle {
 
@@ -1238,7 +1239,9 @@ text2im({
 }
 ```
 
-## Create photo portrait
+### Create photo portrait
+#### 1 prompt, 4 images, 1 seed
+
 ```
 namespace dalle {
 
