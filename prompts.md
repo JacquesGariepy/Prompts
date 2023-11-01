@@ -15,3 +15,5 @@ https://github.com/microsoft/openai-prompt-examples/tree/main
 https://www.promptingguide.ai/techniques/knowledge
 
 https://github.com/dair-ai/Prompt-Engineering-Guide
+
+- https://github.com/mjbommar/gpt4-passes-the-bar
