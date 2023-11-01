@@ -9,3 +9,5 @@ https://realmofai.com/midjourney
 https://midjourneypromptsgenerator.com/
 
 https://www.greataiprompts.com/imageprompt/midjourney-text-to-image-ai-prompts/
+
+https://github.com/microsoft/openai-prompt-examples/tree/main
