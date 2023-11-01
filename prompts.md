@@ -13,3 +13,5 @@ https://www.greataiprompts.com/imageprompt/midjourney-text-to-image-ai-prompts/
 https://github.com/microsoft/openai-prompt-examples/tree/main
 
 https://www.promptingguide.ai/techniques/knowledge
+
+https://github.com/dair-ai/Prompt-Engineering-Guide
