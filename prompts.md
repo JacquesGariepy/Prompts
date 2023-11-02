@@ -16,4 +16,6 @@ https://www.promptingguide.ai/techniques/knowledge
 
 https://github.com/dair-ai/Prompt-Engineering-Guide
 
-- https://github.com/mjbommar/gpt4-passes-the-bar
+https://github.com/mjbommar/gpt4-passes-the-bar
+
+https://unmuteai.notion.site/Mes-Prompts-77df894a55684fec9ead39519a9386ae
