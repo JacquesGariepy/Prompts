@@ -168,12 +168,12 @@ Here are two examples of the comment format to use:
 
 Example Comment 1:
 "
-Line 5: The variable count is not initialized. Ensure to set its initial value to prevent undefined behavior. For example:
-
-```
-let count = 0;
-```
-Reference: Keeping logic out of views (https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-5.0#keeping-logic-out-of-views)
+  Line 5: The variable count is not initialized. Ensure to set its initial value to prevent undefined behavior. For example:
+  
+  ```
+  let count = 0;
+  ```
+  Reference: Keeping logic out of views (https://docs.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-5.0#keeping-logic-out-of-views)
 "
 
 Example Comment 2:
