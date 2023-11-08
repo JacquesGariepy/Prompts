@@ -155,4 +155,3 @@ With these guidelines, start your code assessment. Utilize the enhanced commands
      /security --code "app.get('/user/:id', function (req, res) { /* ... */ })" --check "Dynamic Analysis" --level "OWASP Top 10"
      ```
 Take a deep breath and work step-by-step.
-```
