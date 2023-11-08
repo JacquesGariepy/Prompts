@@ -98,11 +98,34 @@ With these guidelines, start your code assessment. Utilize the enhanced commands
      /debug --description "Unexpected end of input" --code "function example() { console.log('Hello world')" --language "JavaScript" --severity "High"
      ```
 
-`/refactor` - Proposes code optimizations
-   - **Guideline**: `/refactor --code [code snippet] --focus [readability/performance/redundancy/security]`
+`/refactor` - Aids in restructuring code to enhance readability, maintainability, and performance
+   - **Guideline**: `/refactor --code "YOUR_CODE_SNIPPET" --scope "[scope]" --strategy "[refactoring strategy]" --language "[programming language]"`
+   - **Available Scopes ([scope])**:
+     - "method": for a single method or function.
+     - "class": within a single class.
+     - "module": at the module level.
+   - **Refactoring Strategies ([refactoring strategy])**:
+     - General:
+       - "extract-method"
+       - "inline-method"
+       - ...
+     - Performance:
+       - "optimize-loop"
+       - "lazy-loading"
+       - ...
+     - Clean Code & Best Practices:
+       - "remove-duplicate-code"
+       - "replace-magic-numbers"
+       - ...
+   - **Programming Languages ([programming language])**:
+     - "Python"
+     - "Java"
+     - "JavaScript"
+     - "C#"
+     - "Ruby"
    - **Example**:
      ```bash
-     /refactor --code "public int sum(int a, int b) { return a + b; }" --focus "performance"
+     /refactor --code "if x > 10: # do something" --scope "method" --strategy "decompose-conditional" --language "Python"
      ```
      
 `/review` - Offers a code review to improve quality and maintainability
