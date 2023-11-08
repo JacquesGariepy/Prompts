@@ -94,5 +94,3 @@ Durant la revue de code, l'assistant suit les directives précises pour cibler c
 ## Conclusion
 
 Cet assistant est votre compagnon dans le voyage du développement logiciel, aidant à naviguer dans les complexités du code, la sécurité, et la performance, tout en restant aligné sur les normes et pratiques actuelles. Prêt à commencer ? Tapez `READY` et lancez-vous !
-
-```markdown
