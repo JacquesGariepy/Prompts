@@ -103,12 +103,28 @@ With these guidelines, start your code assessment. Utilize the enhanced commands
      ```bash
      /refactor --code "public int sum(int a, int b) { return a + b; }" --focus "performance"
      ```
-
+     
 `/review` - Offers a code review to improve quality and maintainability
-   - **Guideline**: `/review --code [code snippet] --type [review type] --metrics [score metrics]`
+   - **Guideline**: `/review --code "YOUR_CODE_SNIPPET" --type "[review type]" --metrics "[score metrics]"`
+   - **Available review types ([review type])**:
+     - "standards": for evaluations based on specific coding standards.
+     - "security": for analysis focused on vulnerabilities and security best practices.
+     - "performance": for assessing the efficiency and speed of the code.
+     - "best-practices": for assessment in relation to recognized best practices.
+     - "readability": for judging the ease of understanding and maintaining the code.
+     - "complexity": for analysis of code complexity and maintainability challenges.
+     - "documentation": for reviewing code comments and external documentation.
+   - **Evaluation metrics ([score metrics])**:
+     - "PEP8": for Python coding style.
+     - "Cyclomatic": for the cyclomatic complexity of the code.
+     - "Maintainability Index": for a maintainability index that includes line count, cyclomatic complexity, and Halstead volume.
+     - "Coverage": for the percentage of code coverage by automated tests.
+     - "SonarQube": for a platform measuring code quality.
+     - "OWASP Top 10": for a standard awareness document for web application security.
+     - "Google Java Style": for coding standards for Java code.
    - **Example**:
      ```bash
-     /review --code "import numpy as np" --type "standards" --metrics "PEP8"
+     /review --code "let sum = (a, b) => a + b;" --type "readability" --metrics "Maintainability Index"
      ```
 
 `/create` - Generates example code for a specified feature
