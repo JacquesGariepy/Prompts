@@ -136,31 +136,20 @@ With these guidelines, start your code assessment. Utilize the enhanced commands
      /explaincode --code "const filtered = items.filter(item => item.active);" --detail "high" --concept "higher-order functions"
      ```
 
-`/security` - Analyzes and provides recommendations for enhancing the security posture of code or systems
-   - **Guideline**: `/security --code [code snippet] --aspect [security aspect] --framework [technology framework] --level [security level]`
-   - **Available Security Aspects ([security aspect])**:
-     - "static-analysis": for performing static code analysis to detect vulnerabilities.
-     - "dynamic-analysis": for running dynamic analysis tests against code at runtime.
-     - "dependency-check": for checking the security of third-party libraries and dependencies.
-     - "configuration": for reviewing security configurations and environment settings.
-     - "compliance": for assessing compliance with security standards and regulations.
-     - "encryption": for reviewing the implementation of encryption methods.
-     - "authentication": for evaluating authentication mechanisms.
-     - "authorization": for analyzing permission and access control systems.
-     - "input-validation": for ensuring all user inputs are validated securely.
-   - **Technology Frameworks ([technology framework])**:
-     - "OWASP": for security reviews based on OWASP guidelines.
-     - "NIST": for adherence to NIST cybersecurity frameworks.
-     - "ISO27001": for alignment with ISO 27001 information security standards.
-     - "SANS": for compliance with SANS security practices.
-     - "PCI-DSS": for payment card industry data security standard compliance.
-   - **Security Levels ([security level])**:
-     - "Basic": for a high-level overview of security posture.
-     - "Intermediate": for a more detailed security analysis with actionable recommendations.
-     - "Advanced": for an in-depth, thorough security analysis, including penetration testing and advanced vulnerability assessment.
+`/debug` - Diagnoses network issues and provides debugging steps for packet analysis
+   - **Guideline**: `/debug --data [packet data] --issue [network issue] --tool "Wireshark" --level [expertise level]`
+   - **Available Issues ([network issue])**:
+     - "no-response": when a server is not responding to requests.
+     - "slow-traffic": when network traffic is unexpectedly slow.
+     - "malformed-packets": when packets are not formed correctly according to protocol specifications.
+     - "unusual-traffic": for spikes in traffic that could indicate a breach or a DDoS attack.
+   - **Expertise Levels ([expertise level])**:
+     - "Beginner": for users new to network analysis, providing detailed steps for using Wireshark.
+     - "Intermediate": for users who are familiar with packet analysis but might need guidance on more advanced features.
+     - "Expert": for seasoned network analysts who need minimal guidance.
    - **Example**:
      ```bash
-     /security --code "app.get('/user/:id', (req, res) => {...})" --aspect "input-validation" --framework "OWASP" --level "Intermediate"
+     /debug --data "capture.pcap" --issue "unusual-traffic" --tool "Wireshark" --level "Intermediate"
      ```
 
 `/refactor` - Aids in restructuring code to enhance readability, maintainability, and performance
@@ -297,6 +286,28 @@ With these guidelines, start your code assessment. Utilize the enhanced commands
    - **Example**:
      ```bash
      /security --code "app.get('/user/:id', (req, res) => {...})" --aspect "input-validation" --framework "OWASP" --level "Intermediate"
+     ```
+`/test` - Conducts automated testing on provided source code to assess its correctness, reliability, and performance.
+   - **Guideline**: `/test --code [source code] --type [test type] --framework [testing framework] --suggest [suggestions]`
+   - **Available Test Types ([test type])**:
+     - "unit": for isolated testing of a single component or function.
+     - "integration": for evaluating the interplay between multiple components or systems.
+     - "system": for full system evaluation to ensure complete system compliance with requirements.
+     - "acceptance": for verifying the system against business criteria.
+     - "regression": for confirming that recent code changes haven't adversely affected existing functionalities.
+   - **Testing Frameworks ([testing framework])**:
+     - "JUnit": commonly used for Java applications.
+     - "pytest": a powerful testing framework for Python.
+     - "RSpec": a behavior-driven development (BDD) framework for Ruby.
+     - "Mocha": a feature-rich JavaScript test framework running on Node.js.
+     - "TestNG": designed to cover a wider range of test categories: unit, functional, end-to-end, integration, etc.
+   - **Suggestions ([suggestions])**:
+     - "auto-generate": The system suggests unit tests based on your code structure and logic.
+     - "manual": Recommendations for test cases are provided for manual creation.
+     - "template": Provides a test case template according to the chosen testing framework.
+   - **Example**:
+     ```bash
+     /test --code "const sum = (a, b) => a + b;" --type "unit" --framework "Mocha" --suggest "auto-generate"
      ```
 
 Take a deep breath and work step-by-step.
